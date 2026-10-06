@@ -63,6 +63,75 @@ this card.
 Bundled executables, release ZIPs, generated session media, providers, finished
 songs, lyrics, product review, layout, and publication are out of scope.
 
+
+## Planning refinement against accepted current main
+
+This is a provisional refinement of this existing card, not a ready transition,
+implementation, or promotion of closed-unmerged PR #8. UUID, incoming status,
+points, write identity, original scope and historical clarification are preserved.
+The detailed review contract is
+[sonic-seed planning refinement](../../kanban-docs/sonic-seed-planning-refinement.md).
+
+### Context and current authority
+
+Use accepted origin main `a731093b878f600ee30648a01f1a6cd44f3439f0`,
+not the historical issue baseline. The review candidate stacks on the ordinary
+personal synchronization candidate; synchronization does not qualify this card.
+Current `src/calliope/law/` owns Malli contracts; new portable domain and byte
+encoding belong outside that directory. Accepted ADR-002 owns the external media
+dataset and remains untouched. This skill emits caller-owned bounded reference
+artifacts; it neither ingests the corpus nor resolves its media mount.
+
+### Exact pure and adapter boundary
+
+- Shared `.cljc` code owns closed request/seed/artifact-receipt contracts, bounded
+  normalization, deterministic musical generation, canonical serialization, MIDI
+  and WAV byte decisions and resource budgets.
+- Small NBB/Babashka outer adapters supply SHA-256 over the declared canonical
+  bytes, immutable local writes and CLI input/output. They must not trust a
+  caller-supplied digest or duplicate music/encoding decisions.
+- Propose fixed mono PCM s16le at 44,100 Hz, existing four-beat/16-step whole bars,
+  an exact key limit of 256 UTF-8 bytes and finite requested duration 6–60 seconds
+  at millisecond precision. Preserve key bytes without trimming or silent Unicode
+  normalization. Reject unknown fields and invalid values before allocation or
+  output writes. Exact versioned limits and the rounding rule need planning
+  acceptance; they are not accepted music law yet.
+- Canonical seed EDN determines the content address; all semantically relevant
+  normalized input, rendering and generator/format versions participate. A
+  changed canonical format requires a new version; no old byte-compatibility
+  claim is made. The artifact receipt hashes the three other files, not itself,
+  and excludes changing timestamps, absolute paths and runtime names. Receipt
+  River remains the separate accountable execution ledger.
+
+### Verification and admission
+
+The linked note maps each required proof to future red/green commands and current
+repository gates. Those files/commands are proposed; this planning diff does not
+claim an application test or red result. Tests must fail on actual semantic
+assertions before implementation, then pass on NBB and Babashka with byte-for-byte
+parity and a deliberately failing runner proven to exit nonzero. Existing JVM
+contracts/tests remain required. Runtime absence or unavailable schema execution
+is a visible prerequisite, never a skipped pass.
+
+### Estimate and proposed breakdown
+
+Keep the actual existing 5-point task unchanged for this review. The complete
+acceptance scope likely needs 8 points: proposed 3-point portable semantic
+contracts/identity, 3-point deterministic bytes/immutable-write boundary and
+2-point source CLI/skill/hosted proof. Planning review must either justify keeping
+one bounded 5-point story or approve a formal Rheos-managed breakdown with
+explicit identities and dependency links before implementation. These are
+proposed slices, not new cards, hidden dependencies or a silent type/points change.
+
+### Risks and non-goals
+
+Cross-runtime numeric/serialization drift, unexecuted closed schemas, unbounded
+allocation, partial immutable writes, omitted hosted path filters and source-only
+launcher requirements are explicit risks. Issues #11/#12/#14, Suno/provider calls,
+corpus events, dataset projection, native playback, release targets, packaged
+runtimes and artifact publication are outside this refinement. None is added as
+a hard dependency; runtime packaging remains the issue #14 follow-up.
+
 ---
 Review clarification: deterministic reference MIDI/WAV generation and byte-identical golden artifacts remain required verification outputs for this skill card. The generated-session-media non-goal excludes distributing or retaining session outputs as bundled/product deliverables; it does not exclude the bounded reference artifacts required by the acceptance criteria.
 ---

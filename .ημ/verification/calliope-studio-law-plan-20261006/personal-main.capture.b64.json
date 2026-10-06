@@ -1,0 +1,24 @@
+{
+  "command": {
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/calliope/git/ref/heads/main"
+    ],
+    "exit": 0,
+    "at": "2026-10-06T22:05:25.038270+00:00"
+  },
+  "transport": "Lossless base64 of exact native stdout/stderr, not an alternate semantic reader.",
+  "streams": {
+    "stdout": {
+      "bytes": 336,
+      "sha256": "b05062543d11e68cc7e08e293633e10bbe1d02e86fe7c1c4feec36025b077be5",
+      "base64": "eyJyZWYiOiJyZWZzL2hlYWRzL21haW4iLCJub2RlX2lkIjoiUkVGX2t3RE9VNFZkUmE5eVpXWnpMMmhsWVdSekwyMWhhVzQiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL3JpYXR6dWtpemEvY2FsbGlvcGUvZ2l0L3JlZnMvaGVhZHMvbWFpbiIsIm9iamVjdCI6eyJzaGEiOiJlZmU4NWEwMzY1MDRhZGZiNDVkOGNhYjI2OTIwYTZkNDQ4MmFhNTNkIiwidHlwZSI6ImNvbW1pdCIsInVybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvcmlhdHp1a2l6YS9jYWxsaW9wZS9naXQvY29tbWl0cy9lZmU4NWEwMzY1MDRhZGZiNDVkOGNhYjI2OTIwYTZkNDQ4MmFhNTNkIn19"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "base64": ""
+    }
+  }
+}

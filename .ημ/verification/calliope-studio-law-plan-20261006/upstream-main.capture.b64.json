@@ -1,0 +1,24 @@
+{
+  "command": {
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/calliope/git/ref/heads/main"
+    ],
+    "exit": 0,
+    "at": "2026-10-06T22:05:26.002266+00:00"
+  },
+  "transport": "Lossless base64 of exact native stdout/stderr, not an alternate semantic reader.",
+  "streams": {
+    "stdout": {
+      "bytes": 344,
+      "sha256": "232e1ce1de3bf6fd78c76deb8373e898a3db27bf8e55a4bbed71e4caef19d0aa",
+      "base64": "eyJyZWYiOiJyZWZzL2hlYWRzL21haW4iLCJub2RlX2lkIjoiUkVGX2t3RE9Ua2FEQ3E5eVpXWnpMMmhsWVdSekwyMWhhVzQiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL29jdGF2ZS1jb21tb25zL2NhbGxpb3BlL2dpdC9yZWZzL2hlYWRzL21haW4iLCJvYmplY3QiOnsic2hhIjoiYTczMTA5M2I4NzhmNjAwZWUzMDY0OGEwMWYxYTZjZDQ0ZjM0MzlmMCIsInR5cGUiOiJjb21taXQiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL29jdGF2ZS1jb21tb25zL2NhbGxpb3BlL2dpdC9jb21taXRzL2E3MzEwOTNiODc4ZjYwMGVlMzA2NDhhMDFmMWE2Y2Q0NGYzNDM5ZjAifX0="
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "base64": ""
+    }
+  }
+}

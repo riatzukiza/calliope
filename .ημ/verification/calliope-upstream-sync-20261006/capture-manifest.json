@@ -1,0 +1,30 @@
+[
+  {
+    "capture": "personal-repository.json",
+    "bytes": 142,
+    "sha256": "301ed37a87b16a2d113e2ab5c7af10296a70b830ab8dd5155686fa39958a0284",
+    "file": "personal-repository.json.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "read-board.json",
+    "bytes": 9803,
+    "sha256": "62f9d141c3ac61c6a567e31173e27309bb48778e342d707ddfd3753558b8921a",
+    "file": "read-board.json.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "read-board.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "read-board.stderr.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "upstream-compare.json",
+    "bytes": 943,
+    "sha256": "0d63c01a01e386af233617ce47beeeee726c92ea36656d5a13f9b1ddf910404e",
+    "file": "upstream-compare.json.b64",
+    "encoding": "base64"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "capture": "card-after.json",
+    "bytes": 7589,
+    "sha256": "3c88fd4f38c1805632d2d815d2157cd9a8a1625bcc16c981f317faa2ff85cd1f",
+    "file": "card-after.json.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "card-after.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "card-after.stderr.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "card-before.json",
+    "bytes": 3511,
+    "sha256": "86ed93f7c3449b7039e01d1a997081e79d5aa149b5d8b81093026d3eb1eaa997",
+    "file": "card-before.json.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "card-before.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "card-before.stderr.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "read-board-after.json",
+    "bytes": 9803,
+    "sha256": "62f9d141c3ac61c6a567e31173e27309bb48778e342d707ddfd3753558b8921a",
+    "file": "read-board-after.json.b64",
+    "encoding": "base64"
+  },
+  {
+    "capture": "read-board-after.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "file": "read-board-after.stderr.b64",
+    "encoding": "base64"
+  }
+]

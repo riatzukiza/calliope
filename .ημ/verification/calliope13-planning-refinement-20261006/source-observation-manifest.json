@@ -1,0 +1,56 @@
+[
+  {
+    "path": "skills/calliope-sonic-seed/scripts/calliope/sonic_seed/domain.cljc",
+    "source_sha": "8fde6f899f31bc222285bc0ca4c03f7c77200ca2",
+    "bytes": 3520,
+    "sha256": "d015734930ee2912c167a16f43494dd5945081df29cf6cddf4cfe8df18bcc1e1",
+    "git_blob_sha1": "1b36a4809c3e26aaa169b8ac488be0e772430538",
+    "executed": false,
+    "transplanted": false
+  },
+  {
+    "path": "skills/calliope-sonic-seed/scripts/calliope/sonic_seed/shape.cljc",
+    "source_sha": "8fde6f899f31bc222285bc0ca4c03f7c77200ca2",
+    "bytes": 3072,
+    "sha256": "4bee0c94ab86ae9cba39051303ab689837d8eff267149a57f60bdb0ac3aaa2d2",
+    "git_blob_sha1": "577611f66d70138e98acefd741286b7fe45b9a39",
+    "executed": false,
+    "transplanted": false
+  },
+  {
+    "path": "skills/calliope-sonic-seed/scripts/calliope/sonic_seed/law.cljc",
+    "source_sha": "8fde6f899f31bc222285bc0ca4c03f7c77200ca2",
+    "bytes": 819,
+    "sha256": "ef611008478d588a0bb54ddef1944c333485a2c5527a301ee4018ee068b87767",
+    "git_blob_sha1": "1d2b819ae4bceabbb3f799fdb6f81382cfcacff7",
+    "executed": false,
+    "transplanted": false
+  },
+  {
+    "path": "skills/calliope-sonic-seed/scripts/calliope/sonic_seed/infra.nbb",
+    "source_sha": "8fde6f899f31bc222285bc0ca4c03f7c77200ca2",
+    "bytes": 11698,
+    "sha256": "3163fc84ef4477c329413e402c675587987989adf0fa22c8dc226a68a111d81b",
+    "git_blob_sha1": "ee1f87f92b33f76e94d030e47101a27b6199ec0b",
+    "executed": false,
+    "transplanted": false
+  },
+  {
+    "path": "skills/calliope-sonic-seed/references/artifact-contract.md",
+    "source_sha": "8fde6f899f31bc222285bc0ca4c03f7c77200ca2",
+    "bytes": 2350,
+    "sha256": "0b7fa9bea7ee843f8c64ce297ec9e1bea3d0633f6a9768ab614744ee37fe5b90",
+    "git_blob_sha1": "6010406669b8c7a11e7da08241d913709082c5ff",
+    "executed": false,
+    "transplanted": false
+  },
+  {
+    "path": "skills/calliope-sonic-seed/references/runtime-contract.md",
+    "source_sha": "8fde6f899f31bc222285bc0ca4c03f7c77200ca2",
+    "bytes": 1464,
+    "sha256": "46706f9268b55f34f32c2d7731f3c4ffc94cb1ba50f210597cc4184817f6b119",
+    "git_blob_sha1": "edcdef2e8b21c52068dd5ff2b55eccbd6fb88e35",
+    "executed": false,
+    "transplanted": false
+  }
+]

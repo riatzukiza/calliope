@@ -1,0 +1,11 @@
+{
+  "snapshot_location": "columns[1].tasks[11].content",
+  "native_source_hash": "9c9748fe55494f6e986da58945662f6dd70af6a5e8a1f8e10cb9188c303bd3c0",
+  "matching_already_published_cards": [
+    {
+      "path": "docs/kanban/chores/ft-ops-001-generate-rheos-board-snapshot.md",
+      "sha256": "503636fa0be982be796ab3d94018452ce4959be2281b4091928fa684534c2d67"
+    }
+  ],
+  "scope": "Only local path occurrence in48missingcapturedstreams is historical content from an already published card, not new private execution cwd or credential. Exact source content preserved."
+}

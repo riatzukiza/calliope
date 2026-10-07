@@ -1,0 +1,236 @@
+[
+  {
+    "path": "docs/kanban/.events/ledger.edn",
+    "mode": "100644",
+    "bytes": 60394,
+    "sha256": "06e67c6581c05995e7774b8921cb65b6f1123211d1ed0ca411ab1714f4ce61c2"
+  },
+  {
+    "path": "docs/kanban/chores/ft-ops-001-generate-rheos-board-snapshot.md",
+    "mode": "100644",
+    "bytes": 10273,
+    "sha256": "503636fa0be982be796ab3d94018452ce4959be2281b4091928fa684534c2d67"
+  },
+  {
+    "path": "docs/kanban/chores/ft-ops-002-review-authority-statuses.md",
+    "mode": "100644",
+    "bytes": 7331,
+    "sha256": "cb9a6cc8b20e48a0648838c1f0dfd4c62bdd5dae34254bddda230d4264be7cf9"
+  },
+  {
+    "path": "docs/kanban/chores/ft-ops-003-document-first-review-disposition.md",
+    "mode": "100644",
+    "bytes": 3979,
+    "sha256": "25952ace13e3174beebc3ef3d59e2e052ac481b5b0b668e4f25819920fb8a744"
+  },
+  {
+    "path": "docs/kanban/chores/ft-ops-004-untie-media-from-git-lfs.md",
+    "mode": "100644",
+    "bytes": 3187,
+    "sha256": "ef4e101337c2708864fe3ff61e8c8048f5e8f17a6253f140851417018123895d"
+  },
+  {
+    "path": "docs/kanban/chores/ft-ops-005-dataset-carries-text-and-metadata.md",
+    "mode": "100644",
+    "bytes": 2229,
+    "sha256": "6603699e19fd2eafbd16c3a02dc13fa44d14594ca4aac3b395882dd2425db92c"
+  },
+  {
+    "path": "docs/kanban/epics/ft-000-design-authority-and-studio-foundation.md",
+    "mode": "100644",
+    "bytes": 2745,
+    "sha256": "5a04ec25bfac33e1f697c34a4514477ee68a9a888ab6e96cab61c64e5f43efd3"
+  },
+  {
+    "path": "docs/kanban/epics/ft-001-daily-driver-player.md",
+    "mode": "100644",
+    "bytes": 3276,
+    "sha256": "dd38119992abe0ab76e4e6dca5349748d056961766571d576e6d499bb6a38e71"
+  },
+  {
+    "path": "docs/kanban/epics/ft-002-focused-curation.md",
+    "mode": "100644",
+    "bytes": 3103,
+    "sha256": "6fa026724d1c922befabfa05480610a30ee75781a5ddbf2468af46449aabd721"
+  },
+  {
+    "path": "docs/kanban/epics/ft-003-salvage-and-arrangement.md",
+    "mode": "100644",
+    "bytes": 3912,
+    "sha256": "8ad0690ed72a63db8e47d6b8ce3d2c11bd155a8258f6727a770ddd761977b0e9"
+  },
+  {
+    "path": "docs/kanban/epics/ft-004-release-and-publication.md",
+    "mode": "100644",
+    "bytes": 2701,
+    "sha256": "353c187a24a7b81a1519a2ecf24e44cdef3eefccc0734649238438383c10166b"
+  },
+  {
+    "path": "docs/kanban/stories/ft-000a-review-media-workbench-authority.md",
+    "mode": "100644",
+    "bytes": 4773,
+    "sha256": "70b91bb28275a0f4d9e119b1ab6725da330e50cfe5543b45d53551266fb10e75"
+  },
+  {
+    "path": "docs/kanban/stories/ft-000b-define-studio-domain-laws.md",
+    "mode": "100644",
+    "bytes": 2602,
+    "sha256": "3057f5f0daa99cd0005925c6b3268f71775c9ecd9f918135cbf2951119d024df"
+  },
+  {
+    "path": "docs/kanban/stories/ft-000c-define-studio-events-and-projection.md",
+    "mode": "100644",
+    "bytes": 1938,
+    "sha256": "97ea2d712c4aa395b2f7a15397dc0369aaac1775b40abb35deeecf25130b8347"
+  },
+  {
+    "path": "docs/kanban/stories/ft-000d-decide-native-runtime-architecture.md",
+    "mode": "100644",
+    "bytes": 3102,
+    "sha256": "f2dd5148672f9b48c60f959e61ee08bd3f71579ea38bccca7bf28918bbcd9e97"
+  },
+  {
+    "path": "docs/kanban/stories/ft-001a-index-playable-media.md",
+    "mode": "100644",
+    "bytes": 3246,
+    "sha256": "17545d0fc8f0995b3d47f5e7d0c7271a011a8a3c612e9ebe538f6bc1b7e679e9"
+  },
+  {
+    "path": "docs/kanban/stories/ft-001b-implement-playback-and-queue.md",
+    "mode": "100644",
+    "bytes": 2811,
+    "sha256": "873eaa2473919a7c714731dd77a9c817463fe19be8ebc647384a8bf94884b910"
+  },
+  {
+    "path": "docs/kanban/stories/ft-001c-build-player-shell-and-library.md",
+    "mode": "100644",
+    "bytes": 2341,
+    "sha256": "d75eed4b86c8fc913b056e5efc361871e4a7bb784c37f20850719a41402393af"
+  },
+  {
+    "path": "docs/kanban/stories/ft-001d-add-ratings-labels-and-playlists.md",
+    "mode": "100644",
+    "bytes": 2160,
+    "sha256": "49f4d091189ef53da9639cb77efc0ec22838b43a991f1be81fea1520d55a6a46"
+  },
+  {
+    "path": "docs/kanban/stories/ft-001e-integrate-native-shell-media-keys.md",
+    "mode": "100644",
+    "bytes": 3148,
+    "sha256": "86c1be67dfa402e187162826b9ded364af3aee86dd68266e1525e0ad39a70916"
+  },
+  {
+    "path": "docs/kanban/stories/ft-002a-add-smart-lists-and-workspaces.md",
+    "mode": "100644",
+    "bytes": 1691,
+    "sha256": "90043de0841c85a0c48a9f9f4c2b82a6e11787236007305c425f6fb42596ffb3"
+  },
+  {
+    "path": "docs/kanban/stories/ft-002b-build-keyboard-triage.md",
+    "mode": "100644",
+    "bytes": 2213,
+    "sha256": "a36c30d32d7851a3784cfc0f44a53975799a873281792018db4e6d025463b2d0"
+  },
+  {
+    "path": "docs/kanban/stories/ft-003a-implement-markers-and-clips.md",
+    "mode": "100644",
+    "bytes": 2428,
+    "sha256": "13b4f1cdf58d6e25ab56d2cfaf77aa9011f666e3e11514e188666c702dea6ce3"
+  },
+  {
+    "path": "docs/kanban/stories/ft-003b-build-waveform-salvage-editor.md",
+    "mode": "100644",
+    "bytes": 2337,
+    "sha256": "630de5684e9d52827fe148cefdfe137d7e4f50c7c7172b9cc3e94c080d71405d"
+  },
+  {
+    "path": "docs/kanban/stories/ft-003c-arrangement-playback-and-export.md",
+    "mode": "100644",
+    "bytes": 3655,
+    "sha256": "a46de6bbde0329d3b26bed43ddf5dea547d77f59a0ff8f2ffc648c29a4547b4f"
+  },
+  {
+    "path": "docs/kanban/stories/ft-003d-preserve-media-derivation.md",
+    "mode": "100644",
+    "bytes": 1601,
+    "sha256": "2db0a83b68479c5e6838fb8b8ecdd811419086dee79dff6cbac2c18457c02853"
+  },
+  {
+    "path": "docs/kanban/stories/ft-003e-index-reconstruction-evidence.md",
+    "mode": "100644",
+    "bytes": 2310,
+    "sha256": "7ea1bc0d87a9c0be2a538dcb06719c236a6ae4338ebc442d39b3da8f6ced7bd5"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004a-define-release-and-target-laws.md",
+    "mode": "100644",
+    "bytes": 2867,
+    "sha256": "faab25bafb77922d1262f66e94f6227e77a34fe8b7e8f9a39d38997ca3bf3c8d"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004b-generate-release-packages-and-video.md",
+    "mode": "100644",
+    "bytes": 1838,
+    "sha256": "47d6fdb045edc46eba3e78e377de752f356482ebb8d1c61c4b510b95a046f512"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004c-soundcloud-publication-adapter.md",
+    "mode": "100644",
+    "bytes": 2676,
+    "sha256": "883aba016c7591c4f7183b2004bc25e45faec6073a37233f34abcdd6f621648e"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004d-youtube-publication-adapter.md",
+    "mode": "100644",
+    "bytes": 2758,
+    "sha256": "c4842345c23d67cd94bf614477acac5c62c3bdc83df7068a45681d52a0741b85"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004e-distributor-and-manual-handoffs.md",
+    "mode": "100644",
+    "bytes": 1975,
+    "sha256": "6dbe04d6461527cd2d01a36395e1a606b9f0c3d9383916d90a4b152912b8406e"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004f-build-release-builder-and-acceptance.md",
+    "mode": "100644",
+    "bytes": 4664,
+    "sha256": "d00d80279153a73714991ccb3b752a273a7633f10224788806076eef4628e146"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004g-render-youtube-video-assets.md",
+    "mode": "100644",
+    "bytes": 3509,
+    "sha256": "470daac1c4a0e09e3661b235b8a3fa3e5c7047ec76a9f3f15a5343df7c238bee"
+  },
+  {
+    "path": "docs/kanban/stories/ft-004h-build-native-publication-activity-view.md",
+    "mode": "100644",
+    "bytes": 4355,
+    "sha256": "1353646b553719b6544e248be1443fd486425ee9d765a092bb6ce1796a599b6d"
+  },
+  {
+    "path": "docs/kanban/stories/land-the-portable-sonic-seed-skill-with-hosted-tests-ed-skill.md",
+    "mode": "100644",
+    "bytes": 3037,
+    "sha256": "d2ffb0bf94bc461e1c15cf58d3459c5687222e78e46112fbb2c43557c2944019"
+  },
+  {
+    "path": "docs/kanban/stories/package-and-publish-the-sonic-seed-runtime-reproducibly--runtime.md",
+    "mode": "100644",
+    "bytes": 3802,
+    "sha256": "bea469ff73834264f8c6f6618b3354d0fcb00f23ae1e4b83243f75357e34f7ca"
+  },
+  {
+    "path": "docs/kanban/stories/re-ingest-suno-metadata-and-rebuild-its-projection-metadata.md",
+    "mode": "100644",
+    "bytes": 7508,
+    "sha256": "7c5ea359e877140d65cbc58d449b8b287636357b3411e9b9f43be92a5ad1f973"
+  },
+  {
+    "path": "openhax.kanban.json",
+    "mode": "100644",
+    "bytes": 57,
+    "sha256": "cceda23a75123133808ab2352eb969b691fa88f3a9bfc69dbe4d3f349d147871"
+  }
+]

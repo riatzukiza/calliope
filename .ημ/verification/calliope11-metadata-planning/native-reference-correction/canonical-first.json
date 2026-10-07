@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/bin/node",
+    "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/nbb/cli.js",
+    "-cp",
+    "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/pr-flow/scripts",
+    "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/pr-flow/scripts/pr.cljs",
+    "status",
+    "riatzukiza/calliope",
+    "5"
+  ],
+  "exit": 0,
+  "stdout": {
+    "path": "canonical-first.stdout.b64",
+    "bytes": 621,
+    "sha256": "d0888bb650e7eb754f2b8c2b26f5839d8712bf92dbaf524cad8f4353bcbbaf2c"
+  },
+  "stderr": {
+    "path": "canonical-first.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

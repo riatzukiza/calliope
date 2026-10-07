@@ -1,0 +1,23 @@
+{
+  "not_review_capture": "Receipt baseline already pinned by Git blob; full original capture remains privately retained",
+  "source": {
+    "label": "receipt-baseline-tail",
+    "argv": [
+      "git",
+      "show",
+      "04e5ed3166941ff59b8f823d61465b9b015e8626:receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF base64 container",
+    "stdout": {
+      "path": "captures/receipt-baseline-tail.stdout.b64",
+      "bytes": 151893,
+      "sha256": "c401c71b072274f923dc0f95eaa3865fff67f7a74e9026c2891cb96b5399a550"
+    },
+    "stderr": {
+      "path": "captures/receipt-baseline-tail.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

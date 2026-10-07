@@ -1,0 +1,386 @@
+[
+  {
+    "label": "calliope11",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope11.stdout.b64",
+      "bytes": 7280,
+      "sha256": "cccfe5e4c2932ade6713c6ad2f0a9a545eb92450226c45a85c4e937d89dbf58e"
+    },
+    "stderr": {
+      "path": "captures/calliope11.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "calliope-pr1-full",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope-pr1-full.stdout.b64",
+      "bytes": 17915,
+      "sha256": "bdeddc67a419a8c77cef236cfe98fe1b705327ee2aeef85ca58bfea2f9be7933"
+    }
+  },
+  {
+    "label": "calliope-pr2-full",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope-pr2-full.stdout.b64",
+      "bytes": 18131,
+      "sha256": "267d8834447981c63f421c0599bf9c430a954c37f91900bf1bf0022baef3e901"
+    }
+  },
+  {
+    "label": "calliope-pr3-full",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope-pr3-full.stdout.b64",
+      "bytes": 19128,
+      "sha256": "58f93fe58fce7ea3ade612d338d1cca576b764226d5400efedb2a99599f1ded4"
+    }
+  },
+  {
+    "label": "calliope-pr4-full",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope-pr4-full.stdout.b64",
+      "bytes": 20135,
+      "sha256": "c3fe9ce25da8455b60ee14f950b6bd0bc7202b431e5a697496da1c65940e80c1"
+    }
+  },
+  {
+    "label": "calliope11-native-read-task",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope11-native-read-task.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/calliope11-native-read-task.stderr.b64",
+      "bytes": 209,
+      "sha256": "56fa052f104fbedc6f6ca971879fec26957204f57cf751a3d528c877d5cbf091"
+    }
+  },
+  {
+    "label": "calliope11-native-read-task-corrected",
+    "scope": "Previously captured safe native view or source-bound native CLI read; see intake-provenance.json",
+    "stdout": {
+      "path": "captures/calliope11-native-read-task-corrected.stdout.b64",
+      "bytes": 3153,
+      "sha256": "cb4ea49fd6622862c9a7a39ebcdcc3845072db3bf03fccc97d10af31044ea6f9"
+    },
+    "stderr": {
+      "path": "captures/calliope11-native-read-task-corrected.stderr.b64",
+      "bytes": 101,
+      "sha256": "7391a6856756096489f6d36292241559937096b0a3aed82c70d7b817f9a9e85f"
+    }
+  },
+  {
+    "label": "canonical-first-calliope1-stdout",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stdout": {
+      "path": "captures/canonical-first-calliope1.stdout.b64",
+      "bytes": 528,
+      "sha256": "3ce33443b202434960d83e74abfa84b473cbfe80cddbd7c6a4a3db673e91a61e"
+    }
+  },
+  {
+    "label": "canonical-first-calliope1-stderr",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stderr": {
+      "path": "captures/canonical-first-calliope1.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "canonical-first-calliope2-stdout",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stdout": {
+      "path": "captures/canonical-first-calliope2.stdout.b64",
+      "bytes": 517,
+      "sha256": "047b46538645c72ec213f764190ab027b722536ac778f404dce5b3eb33db3a6b"
+    }
+  },
+  {
+    "label": "canonical-first-calliope2-stderr",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stderr": {
+      "path": "captures/canonical-first-calliope2.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "canonical-first-calliope3-stdout",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stdout": {
+      "path": "captures/canonical-first-calliope3.stdout.b64",
+      "bytes": 521,
+      "sha256": "5d5cf5daab87f4826aa1e9b21846ff9b5383b78e221ccb542dc256fb1ab6a41d"
+    }
+  },
+  {
+    "label": "canonical-first-calliope3-stderr",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stderr": {
+      "path": "captures/canonical-first-calliope3.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "canonical-first-calliope4-stdout",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stdout": {
+      "path": "captures/canonical-first-calliope4.stdout.b64",
+      "bytes": 482,
+      "sha256": "f803b039cbeeadaee17bbfcb899c5ec6b3ed1e29ec04230718b2d7f75fb4b214"
+    }
+  },
+  {
+    "label": "canonical-first-calliope4-stderr",
+    "scope": "Exact canonical status output before corresponding native full PR read",
+    "stderr": {
+      "path": "captures/canonical-first-calliope4.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "refined-native-read-task",
+    "argv": [
+      "bwrap",
+      "--die-with-parent",
+      "--unshare-all",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime",
+      "/runtime",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/outside/board-refined",
+      "/fixture",
+      "--ro-bind",
+      "/usr/lib",
+      "/usr/lib",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--chdir",
+      "/tmp",
+      "/runtime/bin/node",
+      "/runtime/rheos/cli.cjs",
+      "read-task",
+      "calliope-issue-11-re-ingest-suno-metadata",
+      "--config",
+      "/fixture/openhax.kanban.json"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF base64 container",
+    "stdout": {
+      "path": "captures/refined-native-read-task.stdout.b64",
+      "bytes": 7962,
+      "sha256": "dd7b9e89bf55a00ce6abe224987b07392d35cc62e7ac576994cd4955d86d1b4b"
+    },
+    "stderr": {
+      "path": "captures/refined-native-read-task.stderr.b64",
+      "bytes": 101,
+      "sha256": "7391a6856756096489f6d36292241559937096b0a3aed82c70d7b817f9a9e85f"
+    }
+  },
+  {
+    "label": "historical-source-object-lookup",
+    "argv": [
+      "git",
+      "cat-file",
+      "-t",
+      "194512b4ce7e9e706f555a4f933449c632bb8fb5"
+    ],
+    "exit": 128,
+    "scope": "Exact local output, canonical single terminal LF base64 container",
+    "stdout": {
+      "path": "captures/historical-source-object-lookup.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/historical-source-object-lookup.stderr.b64",
+      "bytes": 47,
+      "sha256": "93051ef5e7bf1424b70ed514d3f012953c936894eec9c3018251c6cfb674dd83"
+    }
+  },
+  {
+    "label": "diff-check",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "04e5ed3166941ff59b8f823d61465b9b015e8626"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF base64 container",
+    "stdout": {
+      "path": "captures/diff-check.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/diff-check.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "private-node-version",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/bin/node",
+      "--version"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF base64 container",
+    "stdout": {
+      "path": "captures/private-node-version.stdout.b64",
+      "bytes": 9,
+      "sha256": "1506cdf8613ebb6c1198a9587c5e1b708b3e779b139a0b59f937efa199e2ecae"
+    },
+    "stderr": {
+      "path": "captures/private-node-version.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "owning-cli-artifact-sha",
+    "argv": [
+      "sha256sum",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/rheos/cli.cjs"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF base64 container",
+    "stdout": {
+      "path": "captures/owning-cli-artifact-sha.stdout.b64",
+      "bytes": 168,
+      "sha256": "8898a886d67a92880b0ae492f8c369640f6e30d257ccb7603425f99b509de2bd"
+    },
+    "stderr": {
+      "path": "captures/owning-cli-artifact-sha.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-current-owner-append",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/worktree/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF container",
+    "stdout": {
+      "path": "captures/actual-current-owner-append.stdout.b64",
+      "bytes": 115,
+      "sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd"
+    },
+    "stderr": {
+      "path": "captures/actual-current-owner-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-current-owner-working-tip",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/worktree/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF container",
+    "stdout": {
+      "path": "captures/actual-current-owner-working-tip.stdout.b64",
+      "bytes": 3044,
+      "sha256": "25a477a700ef4801720495ee97aa467e1102e6232a5ed225068bd0ed8ab4621a"
+    },
+    "stderr": {
+      "path": "captures/actual-current-owner-working-tip.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "portable-reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/mycology/sm-log.bb",
+      "--task",
+      "Calliope11 full metadata observation and replay planning",
+      "--efficiency",
+      "0.83",
+      "--friction",
+      "0.19",
+      "--candidate",
+      "0.10",
+      "--receipt-refs",
+      "57e86d63a7a95ebe52d515b672282c630a7c5248f9b0c3503aca63e8ca79716c",
+      "--note",
+      "Current asset transport is distinct from metadata semantic replay. Preserve whole ten plus six obligations before adapter work; original card prefix and native Incoming visibility remain separate from admission. Direct CLI wrapper mistake refused and corrected; no live event or spore."
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF container",
+    "stdout": {
+      "path": "captures/portable-reflection-append.stdout.b64",
+      "bytes": 141,
+      "sha256": "dff09289a810bbf2a03f244bc2e4fc268bcf260148209cfffdb97ad545cb37a2"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "portable-reflection-readback",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical single terminal LF container",
+    "stdout": {
+      "path": "captures/portable-reflection-readback.stdout.b64",
+      "bytes": 620,
+      "sha256": "dc3f8c26d576d10fc143c9aea03baed339f350f369574358dcea8a6c0c55d716"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-readback.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

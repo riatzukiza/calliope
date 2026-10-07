@@ -1,0 +1,113 @@
+[
+  {
+    "label": "calliope12",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/calliope/issues/12"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 6924,
+    "raw_source_sha256": "7fcf3f1162061bf42b1af125a75a4b552cb1fa708b32608fcbeb7eea95358383",
+    "scope": "Safe structural transport view, scoped query values withheld before persistence",
+    "stdout": {
+      "path": "native/calliope12.stdout.b64",
+      "bytes": 7087,
+      "sha256": "2ea98958c3a2a0974ccade5f3d022d13afe89563a0e7a8f693c63312fbc17f0a"
+    },
+    "stderr": {
+      "path": "native/calliope12.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "calliope12-comments",
+    "argv": [
+      "gh",
+      "api",
+      "--paginate",
+      "repos/octave-commons/calliope/issues/12/comments"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 3674,
+    "raw_source_sha256": "4db6cc05211ca066bce05b88669e680264afea23316d4610854c8f3d3d20534c",
+    "scope": "Safe structural transport view, scoped query values withheld before persistence",
+    "stdout": {
+      "path": "native/calliope12-comments.stdout.b64",
+      "bytes": 3785,
+      "sha256": "c973f04d2cf3c8a01a37be58f37ad98ef8f8b9320b50c36619018906e68023de"
+    },
+    "stderr": {
+      "path": "native/calliope12-comments.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "calliope11",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/calliope/issues/11"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 7117,
+    "raw_source_sha256": "8dc1c2c2316bd04f0358a5d81b258d7025b78b1ac9992858636b6cb92eeef7fc",
+    "scope": "Safe structural transport view, scoped query values withheld before persistence",
+    "stdout": {
+      "path": "native/calliope11.stdout.b64",
+      "bytes": 7280,
+      "sha256": "cccfe5e4c2932ade6713c6ad2f0a9a545eb92450226c45a85c4e937d89dbf58e"
+    },
+    "stderr": {
+      "path": "native/calliope11.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "bitch5",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/bitch-tracker/issues/5"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 7928,
+    "raw_source_sha256": "c5b67704650304351f3d809d69f4428dca1547120ea29768b9dfb88777e3f17a",
+    "scope": "Safe structural transport view, scoped query values withheld before persistence",
+    "stdout": {
+      "path": "native/bitch5.stdout.b64",
+      "bytes": 8108,
+      "sha256": "4415479f6787ba6e9641ad4e467103b4caeaa849537209b0984d4a66a1f086b1"
+    },
+    "stderr": {
+      "path": "native/bitch5.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "bitch6",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/bitch-tracker/issues/6"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 8454,
+    "raw_source_sha256": "0b2a16dd7673a5a0c8d7389175fbb99cf86970331b3a8d882c1328a47b54659a",
+    "scope": "Safe structural transport view, scoped query values withheld before persistence",
+    "stdout": {
+      "path": "native/bitch6.stdout.b64",
+      "bytes": 8634,
+      "sha256": "1e4c175e8db8303e7cf38778f45b3b62a7c54a5ac1447fb81301228fcc1eb2ce"
+    },
+    "stderr": {
+      "path": "native/bitch6.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

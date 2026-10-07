@@ -1,0 +1,14 @@
+{
+  "owning_source": "ef3c4abf1ea75199486f693e9470df3fec88dd49",
+  "artifact_sha256": "791418bc9767260df804b5a972acb4bee7a5ffb409ea1edb899c348a2b8546a4",
+  "artifact_bytes": 2115588,
+  "node_version": "22.20.0",
+  "source_build_provenance": "Prior sealed own Rheos-owner-capability-27e11873c4; actual copied identical artifact, not a new build",
+  "limits": [
+    "native read input visibility only",
+    "released eta-mu1.1.1 bundled Rheos0.1 differs",
+    "no gate dispatch/transition/fulltest/package qualification"
+  ],
+  "argv_manifest": "capture-manifest.json",
+  "network": "bwrap --unshare-all read-only mounts"
+}

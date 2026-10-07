@@ -1,0 +1,728 @@
+{
+  "baseline": "d0bc0709012d87382a81fcfabb227e4b467f826d",
+  "references": [
+    {
+      "manifest": "calliope11-native-read-task-corrected.json",
+      "path": "native/calliope11-native-read-task-corrected.stdout.b64",
+      "bytes": 3153,
+      "sha256": "cb4ea49fd6622862c9a7a39ebcdcc3845072db3bf03fccc97d10af31044ea6f9"
+    },
+    {
+      "manifest": "calliope11-native-read-task-corrected.json",
+      "path": "native/calliope11-native-read-task-corrected.stderr.b64",
+      "bytes": 101,
+      "sha256": "7391a6856756096489f6d36292241559937096b0a3aed82c70d7b817f9a9e85f"
+    },
+    {
+      "manifest": "calliope11-native-read-task.json",
+      "path": "native/calliope11-native-read-task.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "calliope11-native-read-task.json",
+      "path": "native/calliope11-native-read-task.stderr.b64",
+      "bytes": 209,
+      "sha256": "56fa052f104fbedc6f6ca971879fec26957204f57cf751a3d528c877d5cbf091"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/calliope12.stdout.b64",
+      "bytes": 7087,
+      "sha256": "2ea98958c3a2a0974ccade5f3d022d13afe89563a0e7a8f693c63312fbc17f0a"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/calliope12.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/calliope12-comments.stdout.b64",
+      "bytes": 3785,
+      "sha256": "c973f04d2cf3c8a01a37be58f37ad98ef8f8b9320b50c36619018906e68023de"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/calliope12-comments.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/calliope11.stdout.b64",
+      "bytes": 7280,
+      "sha256": "cccfe5e4c2932ade6713c6ad2f0a9a545eb92450226c45a85c4e937d89dbf58e"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/calliope11.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/bitch5.stdout.b64",
+      "bytes": 8108,
+      "sha256": "4415479f6787ba6e9641ad4e467103b4caeaa849537209b0984d4a66a1f086b1"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/bitch5.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/bitch6.stdout.b64",
+      "bytes": 8634,
+      "sha256": "1e4c175e8db8303e7cf38778f45b3b62a7c54a5ac1447fb81301228fcc1eb2ce"
+    },
+    {
+      "manifest": "issue-scope-manifest.json",
+      "path": "native/bitch6.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "calliope-native-snapshot-command.json",
+      "path": "native/calliope-native-snapshot.stdout.b64",
+      "bytes": 121623,
+      "sha256": "117b551ecf2c4b33b75009c085bcacd2bb5e30790eecd909e364d433e25982c7"
+    },
+    {
+      "manifest": "calliope-native-snapshot-command.json",
+      "path": "native/calliope-native-snapshot.stderr.b64",
+      "bytes": 101,
+      "sha256": "7391a6856756096489f6d36292241559937096b0a3aed82c70d7b817f9a9e85f"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--Truth.stdout.b64",
+      "bytes": 15827,
+      "sha256": "cf166ab8f34a686f4a0b9bec2b95582b3d3fe1dd51e1d0c8b9718cef8d7734b6"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--Truth.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--Truth.stdout.b64",
+      "bytes": 2312,
+      "sha256": "3cfab15a39682a1c674d091631213ca1c30089d827ce2aceea32217d9a003206"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--Truth.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--epiphany.stdout.b64",
+      "bytes": 749,
+      "sha256": "8535004ef08fd0b9051a49bdf395cac799d860104c7735ab9d7e6fed411fb1a7"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--epiphany.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--epiphany.stdout.b64",
+      "bytes": 969,
+      "sha256": "2199c0c5d03f2e3c5a2ea59ac50c1db4daee124678eb570cd110a5852d20c217"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--epiphany.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--calliope.stdout.b64",
+      "bytes": 1096,
+      "sha256": "c93cbe5e2d867c3842ada848d5157fcad480aa8fc80f7f7ac8f45397eed6ef35"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--calliope.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--calliope.stdout.b64",
+      "bytes": 1621,
+      "sha256": "84b817e00280fbeafbfb409fecc0c54072b98e197c2e6a9d04800e9cb22f296c"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--calliope.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--shx.stdout.b64",
+      "bytes": 290,
+      "sha256": "c526db7a482b6e4b6d841fbc250d6979dd500dc3c272618b533d1dbdcf3a8bb0"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--shx.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--shx.stdout.b64",
+      "bytes": 1637,
+      "sha256": "47d040d427da07a3c047f525560934e8b49696aed8d97288fa59f4df5f865632"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--shx.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--bitch-tracker.stdout.b64",
+      "bytes": 751,
+      "sha256": "748873bb81036b38a14dd312f7a17ff10347d88c82aef2407a5a9fb0901e43cb"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--bitch-tracker.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--bitch-tracker.stdout.b64",
+      "bytes": 958,
+      "sha256": "66da0cfb812ad725bccf0af61f8df886760db772f610302b9f85fb18ddb5ec1c"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--bitch-tracker.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--muse.stdout.b64",
+      "bytes": 1018,
+      "sha256": "764b71f85f4793686983659b3443d56c2bbccb2d1a0d5fb2189d67fba82bbb03"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/octave-commons--muse.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--muse.stdout.b64",
+      "bytes": 1635,
+      "sha256": "1374e2200b07ce0a5b71fd81c685c11bf137c599720371142677dd0935868362"
+    },
+    {
+      "manifest": "inventory.json",
+      "path": "native/riatzukiza--muse.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope1.stdout.b64",
+      "bytes": 528,
+      "sha256": "3ce33443b202434960d83e74abfa84b473cbfe80cddbd7c6a4a3db673e91a61e"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope1.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope2.stdout.b64",
+      "bytes": 517,
+      "sha256": "047b46538645c72ec213f764190ab027b722536ac778f404dce5b3eb33db3a6b"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope2.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope3.stdout.b64",
+      "bytes": 521,
+      "sha256": "5d5cf5daab87f4826aa1e9b21846ff9b5383b78e221ccb542dc256fb1ab6a41d"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope3.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope4.stdout.b64",
+      "bytes": 482,
+      "sha256": "f803b039cbeeadaee17bbfcb899c5ec6b3ed1e29ec04230718b2d7f75fb4b214"
+    },
+    {
+      "manifest": "canonical-first-calliope-manifest.json",
+      "path": "native/canonical-first-calliope4.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "unique_added": [
+    {
+      "path": "native/calliope11-native-read-task-corrected.stdout.b64",
+      "encoded_bytes": 4205,
+      "encoded_sha256": "cb839bd15f3cd969a5386f5c647aaf94d058a366236406f413264df06304d195",
+      "decoded_bytes": 3153,
+      "decoded_sha256": "cb4ea49fd6622862c9a7a39ebcdcc3845072db3bf03fccc97d10af31044ea6f9",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope11-native-read-task-corrected.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope11-native-read-task-corrected.stderr.b64",
+      "encoded_bytes": 137,
+      "encoded_sha256": "5c51e5eccc9ffc3fbb5bcbadb8b005fd5237549c98215b6d0027859fa059a290",
+      "decoded_bytes": 101,
+      "decoded_sha256": "7391a6856756096489f6d36292241559937096b0a3aed82c70d7b817f9a9e85f",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope11-native-read-task-corrected.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope11-native-read-task.stdout.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope11-native-read-task.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope11-native-read-task.stderr.b64",
+      "encoded_bytes": 281,
+      "encoded_sha256": "29b7c40222b4488cf500f616c12b70e0c5131550ea15b83c32d1367ba9615597",
+      "decoded_bytes": 209,
+      "decoded_sha256": "56fa052f104fbedc6f6ca971879fec26957204f57cf751a3d528c877d5cbf091",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope11-native-read-task.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope12.stdout.b64",
+      "encoded_bytes": 9453,
+      "encoded_sha256": "fd08b3dc6c392315c5b9230cce6273cf00a9a7de6bead673fae92ece260f00e7",
+      "decoded_bytes": 7087,
+      "decoded_sha256": "2ea98958c3a2a0974ccade5f3d022d13afe89563a0e7a8f693c63312fbc17f0a",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope12.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope12.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope12.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope12-comments.stdout.b64",
+      "encoded_bytes": 5049,
+      "encoded_sha256": "ab629f0dffcbc3b9572e6dd4169b4e28db7844c304933817d58d7f494ab0cf8c",
+      "decoded_bytes": 3785,
+      "decoded_sha256": "c973f04d2cf3c8a01a37be58f37ad98ef8f8b9320b50c36619018906e68023de",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope12-comments.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope12-comments.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope12-comments.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope11.stdout.b64",
+      "encoded_bytes": 9709,
+      "encoded_sha256": "1613c03343d5345eb3195f92dfec3f75521aaf75c4f346f8213a4a7a0fb2d86b",
+      "decoded_bytes": 7280,
+      "decoded_sha256": "cccfe5e4c2932ade6713c6ad2f0a9a545eb92450226c45a85c4e937d89dbf58e",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope11.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope11.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope11.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/bitch5.stdout.b64",
+      "encoded_bytes": 10813,
+      "encoded_sha256": "11521f5db65deb52e7e97c3646a1605c3e8eb3c5a28004f70a62e7cc44033ea6",
+      "decoded_bytes": 8108,
+      "decoded_sha256": "4415479f6787ba6e9641ad4e467103b4caeaa849537209b0984d4a66a1f086b1",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/bitch5.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/bitch5.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/bitch5.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/bitch6.stdout.b64",
+      "encoded_bytes": 11513,
+      "encoded_sha256": "bfc13eff776ba2ee8f979998d0ec427039d91d511a3a106403f82e80ad98956b",
+      "decoded_bytes": 8634,
+      "decoded_sha256": "1e4c175e8db8303e7cf38778f45b3b62a7c54a5ac1447fb81301228fcc1eb2ce",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/bitch6.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/bitch6.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/bitch6.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope-native-snapshot.stdout.b64",
+      "encoded_bytes": 162165,
+      "encoded_sha256": "9c9748fe55494f6e986da58945662f6dd70af6a5e8a1f8e10cb9188c303bd3c0",
+      "decoded_bytes": 121623,
+      "decoded_sha256": "117b551ecf2c4b33b75009c085bcacd2bb5e30790eecd909e364d433e25982c7",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope-native-snapshot.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/calliope-native-snapshot.stderr.b64",
+      "encoded_bytes": 137,
+      "encoded_sha256": "5c51e5eccc9ffc3fbb5bcbadb8b005fd5237549c98215b6d0027859fa059a290",
+      "decoded_bytes": 101,
+      "decoded_sha256": "7391a6856756096489f6d36292241559937096b0a3aed82c70d7b817f9a9e85f",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/calliope-native-snapshot.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--Truth.stdout.b64",
+      "encoded_bytes": 21105,
+      "encoded_sha256": "44cfb92f6248dac792e448d8cee6b9b4adb09f14be30425976e63e8858605ed6",
+      "decoded_bytes": 15827,
+      "decoded_sha256": "cf166ab8f34a686f4a0b9bec2b95582b3d3fe1dd51e1d0c8b9718cef8d7734b6",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--Truth.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--Truth.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--Truth.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--Truth.stdout.b64",
+      "encoded_bytes": 3085,
+      "encoded_sha256": "514fcb11424b4ee56df19c2b7ac83780c5718873fd147a7b51b93d0c179254be",
+      "decoded_bytes": 2312,
+      "decoded_sha256": "3cfab15a39682a1c674d091631213ca1c30089d827ce2aceea32217d9a003206",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--Truth.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--Truth.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--Truth.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--epiphany.stdout.b64",
+      "encoded_bytes": 1001,
+      "encoded_sha256": "9c569a9410dc4a53597b2d7aff0420e1428a11db2da04a0fce510bbdb765caff",
+      "decoded_bytes": 749,
+      "decoded_sha256": "8535004ef08fd0b9051a49bdf395cac799d860104c7735ab9d7e6fed411fb1a7",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--epiphany.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--epiphany.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--epiphany.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--epiphany.stdout.b64",
+      "encoded_bytes": 1293,
+      "encoded_sha256": "7b2556f4df9a610d4aef9d67977ed7cb70112db6715e029bb757c808673a7c4b",
+      "decoded_bytes": 969,
+      "decoded_sha256": "2199c0c5d03f2e3c5a2ea59ac50c1db4daee124678eb570cd110a5852d20c217",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--epiphany.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--epiphany.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--epiphany.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--calliope.stdout.b64",
+      "encoded_bytes": 1465,
+      "encoded_sha256": "9a63f64bb0c9550f45177520353d3c6f9400b720dd2195fc2693874113597eec",
+      "decoded_bytes": 1096,
+      "decoded_sha256": "c93cbe5e2d867c3842ada848d5157fcad480aa8fc80f7f7ac8f45397eed6ef35",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--calliope.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--calliope.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--calliope.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--calliope.stdout.b64",
+      "encoded_bytes": 2165,
+      "encoded_sha256": "63b4fc290c082acb2f93ab2b3d1226b7412e06c673dceae35dc77b5d02508aeb",
+      "decoded_bytes": 1621,
+      "decoded_sha256": "84b817e00280fbeafbfb409fecc0c54072b98e197c2e6a9d04800e9cb22f296c",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--calliope.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--calliope.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--calliope.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--shx.stdout.b64",
+      "encoded_bytes": 389,
+      "encoded_sha256": "da0283ea1f57f5c4f72cd8a3e9f1358d5c84a995b03345a334f8ab9794664f34",
+      "decoded_bytes": 290,
+      "decoded_sha256": "c526db7a482b6e4b6d841fbc250d6979dd500dc3c272618b533d1dbdcf3a8bb0",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--shx.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--shx.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--shx.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--shx.stdout.b64",
+      "encoded_bytes": 2185,
+      "encoded_sha256": "d4afeddf29ee71bf7d7897e0a8014c6fa21351693d8652fe941782213b1aeffc",
+      "decoded_bytes": 1637,
+      "decoded_sha256": "47d040d427da07a3c047f525560934e8b49696aed8d97288fa59f4df5f865632",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--shx.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--shx.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--shx.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--bitch-tracker.stdout.b64",
+      "encoded_bytes": 1005,
+      "encoded_sha256": "493fd32fc757f76a3abe573158c4b8f7baaedabc873c4bcfdb62010b296a6632",
+      "decoded_bytes": 751,
+      "decoded_sha256": "748873bb81036b38a14dd312f7a17ff10347d88c82aef2407a5a9fb0901e43cb",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--bitch-tracker.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--bitch-tracker.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--bitch-tracker.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--bitch-tracker.stdout.b64",
+      "encoded_bytes": 1281,
+      "encoded_sha256": "62e12c21a1ca03a33513c3593db86487a647f5fb2ca5e853680f2aa3157ba53c",
+      "decoded_bytes": 958,
+      "decoded_sha256": "66da0cfb812ad725bccf0af61f8df886760db772f610302b9f85fb18ddb5ec1c",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--bitch-tracker.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--bitch-tracker.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--bitch-tracker.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--muse.stdout.b64",
+      "encoded_bytes": 1361,
+      "encoded_sha256": "dc68734f4f3bb49d124bb228d51b6d256a5d967c1221a481ce45ceb32ba1fa07",
+      "decoded_bytes": 1018,
+      "decoded_sha256": "764b71f85f4793686983659b3443d56c2bbccb2d1a0d5fb2189d67fba82bbb03",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--muse.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/octave-commons--muse.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/octave-commons--muse.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--muse.stdout.b64",
+      "encoded_bytes": 2181,
+      "encoded_sha256": "4d2525c0e1fa40af91a49aaf5cb3cb7e1dd97fe3236c7166f40fe4d55aa0a283",
+      "decoded_bytes": 1635,
+      "decoded_sha256": "1374e2200b07ce0a5b71fd81c685c11bf137c599720371142677dd0935868362",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--muse.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/riatzukiza--muse.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/riatzukiza--muse.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope1.stdout.b64",
+      "encoded_bytes": 705,
+      "encoded_sha256": "c7b84506523307162cc65b9f69d7f0cea364a605112e2fd85cd073978acb50af",
+      "decoded_bytes": 528,
+      "decoded_sha256": "3ce33443b202434960d83e74abfa84b473cbfe80cddbd7c6a4a3db673e91a61e",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope1.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope1.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope1.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope2.stdout.b64",
+      "encoded_bytes": 693,
+      "encoded_sha256": "9e85953e19c725641c715e8104843403a2d81d2b57a0a88b3c9fc27c211f810e",
+      "decoded_bytes": 517,
+      "decoded_sha256": "047b46538645c72ec213f764190ab027b722536ac778f404dce5b3eb33db3a6b",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope2.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope2.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope2.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope3.stdout.b64",
+      "encoded_bytes": 697,
+      "encoded_sha256": "e6f419a4f3d0e00b9ff7c970779272190ec7dd27bfb45621bcf6b86629147f1f",
+      "decoded_bytes": 521,
+      "decoded_sha256": "5d5cf5daab87f4826aa1e9b21846ff9b5383b78e221ccb542dc256fb1ab6a41d",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope3.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope3.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope3.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope4.stdout.b64",
+      "encoded_bytes": 645,
+      "encoded_sha256": "3c607212b275f835f8bd53ffa2fcb1809a286b652dfd90f12119e996ec723962",
+      "decoded_bytes": 482,
+      "decoded_sha256": "f803b039cbeeadaee17bbfcb899c5ec6b3ed1e29ec04230718b2d7f75fb4b214",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope4.stdout.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    },
+    {
+      "path": "native/canonical-first-calliope4.stderr.b64",
+      "encoded_bytes": 1,
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_private_path": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/native/canonical-first-calliope4.stderr.b64",
+      "scope": "Exact bytes of original captured artifact; GitHub safe views vs exact native CLI outputs retained per inherited provenance, not blanket raw-native losslessness"
+    }
+  ],
+  "raw_network_provenance": "Inherited manifests distinguish structurally safe GitHub views; copying them does not reconstruct unsanitized network bodies."
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "label": "references-valid",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-valid.stdout.b64",
+      "bytes": 67,
+      "sha256": "81ef31895f4c8a68a48e5638972ec2249ace6a9379eb3ccaa1aeae7998a319ea"
+    },
+    "stderr": {
+      "path": "references-valid.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "checker-compile",
+    "argv": [
+      "python",
+      "-m",
+      "py_compile",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/verify-native-references.py"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "checker-compile.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "checker-compile.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-missing",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/outside/control-missing"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-missing.stdout.b64",
+      "bytes": 378,
+      "sha256": "ac07897b372945aa7a3a6e004b56d27f94456cb3e43d6d118cb57b608cd2f297"
+    },
+    "stderr": {
+      "path": "references-negative-missing.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-bytes",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/outside/control-bytes"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-bytes.stdout.b64",
+      "bytes": 213,
+      "sha256": "9b45fa6ce6f705d7f3999b00e328895d3550a9e14ca24ed3740eee6283692597"
+    },
+    "stderr": {
+      "path": "references-negative-bytes.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-wrapper",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/outside/control-wrapper"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-wrapper.stdout.b64",
+      "bytes": 220,
+      "sha256": "2bea0f4e899daff41ed8a2e311e4adcdb4cdae0aaa682588fd8abb87412fcad8"
+    },
+    "stderr": {
+      "path": "references-negative-wrapper.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-empty-manifests",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/outside/control-empty-manifests"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-empty-manifests.stdout.b64",
+      "bytes": 110,
+      "sha256": "2a70fcd065d846028888aa648c5afe59fe36e034d3f3ad90da7b57a26bf6cc77"
+    },
+    "stderr": {
+      "path": "references-negative-empty-manifests.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-owner-append",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/receipt-consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "actual-owner-append.stdout.b64",
+      "bytes": 115,
+      "sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd"
+    },
+    "stderr": {
+      "path": "actual-owner-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-owner-working-tip",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/.\u03b7\u03bc/verification/calliope11-metadata-planning/native-reference-correction/receipt-consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/worktree/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "actual-owner-working-tip.stdout.b64",
+      "bytes": 3328,
+      "sha256": "553ca29d9e7f1bc6e222cdd664239fe2edf85320ad3577ac18c5822f8590589a"
+    },
+    "stderr": {
+      "path": "actual-owner-working-tip.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/mycology/sm-log.bb",
+      "--task",
+      "Calliope5 restore complete historical native reference closure",
+      "--efficiency",
+      "0.87",
+      "--friction",
+      "0.16",
+      "--candidate",
+      "0.10",
+      "--receipt-refs",
+      "1b60c1cba38fbd21df2e5e19cc28c4616a3f43275dfbd2af45751bf0735377ed",
+      "--note",
+      "Copied manifests require reachable referenced artifacts, not only selected views. All48exact originals restored without rewriting manifests/history or narrowing issue11. Safe views retain scope; byte/SHA/wrapper/absence negative controls failclosed. Own JSON page/thread display mistakes preserved, no live event/spore/promotion."
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "reflection-append.stdout.b64",
+      "bytes": 139,
+      "sha256": "6e68d42c4090696e02e673c8e1baf70d7dcf9bdc95cf5d0a3f27fe37a4647809"
+    },
+    "stderr": {
+      "path": "reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "reflection-readback",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope5-reference-repair-4874c7fc59/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "reflection-readback.stdout.b64",
+      "bytes": 675,
+      "sha256": "88f66a0f053fc3cfe67d2731cdf9d89d8ba2d37124f47934e1e6808c80963b36"
+    },
+    "stderr": {
+      "path": "reflection-readback.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "diff-hygiene",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "d0bc0709012d87382a81fcfabb227e4b467f826d"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "diff-hygiene.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "diff-hygiene.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

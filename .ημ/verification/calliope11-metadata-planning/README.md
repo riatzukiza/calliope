@@ -65,3 +65,15 @@ in their manifests; no raw-native losslessness is inferred from a safe view.
 No implementation test suite or corpus scan was run. Final Git/full-tip validation
 uses the frozen full commit through the actual pinned owning API, with output and
 complete object/prefix proof retained outside this candidate.
+
+
+## Native reference availability correction
+
+Review 5442125207 / inline 4206750696 / `cr-comment:v1:ccd8ea746ce1aaaa8bbe0071`
+identified missing published `native/*.b64` artifacts. The correction restores all
+48 unique referenced files at their existing relative paths, matching the original
+captured encoded bytes and manifest decoded SHA/size. Historical manifests,
+selected captures, card/design, accepted source and ledger history are preserved.
+See [the correction index](native-reference-correction/README.md), which distinguishes
+safe GitHub views from exact CLI output. This repairs review-input availability;
+it provides no fresh review approval, Ready, corpus or implementation qualification.

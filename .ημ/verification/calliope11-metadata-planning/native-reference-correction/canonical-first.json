@@ -11,12 +11,12 @@
   ],
   "exit": 0,
   "stdout": {
-    "path": "audit/canonical-first.stdout.b64",
+    "path": "canonical-first.stdout.b64",
     "bytes": 621,
     "sha256": "d0888bb650e7eb754f2b8c2b26f5839d8712bf92dbaf524cad8f4353bcbbaf2c"
   },
   "stderr": {
-    "path": "audit/canonical-first.stderr.b64",
+    "path": "canonical-first.stderr.b64",
     "bytes": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }

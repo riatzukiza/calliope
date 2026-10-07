@@ -19,3 +19,12 @@
   spore: none
   receipt-refs: 1b60c1cba38fbd21df2e5e19cc28c4616a3f43275dfbd2af45751bf0735377ed
   note: Copied manifests require reachable referenced artifacts, not only selected views. All48exact originals restored without rewriting manifests/history or narrowing issue11. Safe views retain scope; byte/SHA/wrapper/absence negative controls failclosed. Own JSON page/thread display mistakes preserved, no live event/spore/promotion.
+- ts: 2026-10-07T14:20:24.186887524Z
+  session: /home/err/.codex/parallel-goal/calliope5-manifest-completeness-gp5nutjo/worktree
+  task: Calliope5 complete manifest reference inventory correction
+  p-efficiency: 0.88
+  p-friction: 0.18
+  p-skill-candidate: 0.10
+  spore: none
+  receipt-refs: review5443363092,row77
+  note: Transport existence checks need whole expected record multiset equality: omissions and equal-count substitutions passed the predecessor. Exact 48-record identity and original byte/hash metadata now retained; private fault controls reject each incomplete case. Full issue11 planning/history and native ownership remain, no board/provider/approval claim.

@@ -1,0 +1,6 @@
+{
+  "finding": "Draft permitted absence of durable checkpoint when external resume unavailable, weaker than issue10AC6",
+  "resolution": "Always retain durable recovery checkpoint with exact release/target/attempt/progress; external refusal and lawful new attempt/manual continuation distinct",
+  "native_read_history": "Original/proposed before correction retained; final-proposed binds corrected body",
+  "scope": "Preparation peer only, no native reviewer credit or state change"
+}

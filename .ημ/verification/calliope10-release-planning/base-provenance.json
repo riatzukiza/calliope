@@ -1,0 +1,14 @@
+{
+  "base": "04e5ed3166941ff59b8f823d61465b9b015e8626",
+  "personal_sync_branch": "codex/calliope-upstream-sync",
+  "personal_sync_PR": "https://github.com/riatzukiza/calliope/pull/1",
+  "accepted_origin": "a731093b878f600ee30648a01f1a6cd44f3439f0",
+  "personal_main": "efe85a036504adfb45d8cab26920a6d4482aa53d",
+  "declared_primary_pin": "2655ae6eddbd20ac400a8e1ff99914c56d81b835",
+  "historical_pin_limit": "Git128 unavailable in independently copied reachable current source store only; no global absence/project drift/causal claim; census61 existing frontier applies",
+  "original_card": "docs/kanban/stories/ft-004a-define-release-and-target-laws.md",
+  "readiness": "Icebox/P1/5 unchanged; no actual qualified plan/Ready admission",
+  "fork_parent": "octave-commons/calliope",
+  "fork_source": "octave-commons/calliope",
+  "allow_auto_merge": false
+}

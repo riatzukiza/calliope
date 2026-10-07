@@ -1,0 +1,598 @@
+[
+  {
+    "name": "fresh-fork",
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/calliope"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:08.119361+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-fork.stdout.b64",
+      "bytes": 13212,
+      "sha256": "44fcc4ad757f9ba688c1b4aba22b67a32f3438f2bb858dcdb423a5942e446d6f",
+      "original_native_bytes": 16326,
+      "original_native_sha256": "d302e4b8099985b2517c53af73987c09a504f5afd6b1a1026b358e46ec4645cc"
+    },
+    "stderr": {
+      "path": "captures/fresh-fork.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-origin-main",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/calliope/commits/main"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:08.638767+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-origin-main.stdout.b64",
+      "bytes": 12507,
+      "sha256": "839ebf5f97b7e924a37b99bf25e9cf7db683c5a4cbca3104872584ea4c4026af",
+      "original_native_bytes": 12967,
+      "original_native_sha256": "0243a09db4268c9ef0f2ce4a8d152a31777958f94d0487ca1df17b1b803aec5e"
+    },
+    "stderr": {
+      "path": "captures/fresh-origin-main.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-personal-main",
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/calliope/commits/main"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:10.063011+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-personal-main.stdout.b64",
+      "bytes": 21886,
+      "sha256": "25c11cdd204d62b0ca159d3a39f91f4c1d7314d59d6d038f59ef432145c8a5ae",
+      "original_native_bytes": 22507,
+      "original_native_sha256": "11202375f1737f9269e8d2d71afee4b3a57b1e3ce940ebb17a7d30033fa1d218"
+    },
+    "stderr": {
+      "path": "captures/fresh-personal-main.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-personal-PRs",
+    "argv": [
+      "gh",
+      "api",
+      "repos/riatzukiza/calliope/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:11.050570+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-personal-PRs.stdout.b64",
+      "bytes": 49743,
+      "sha256": "b9ff1ff05e60799640f8319bf2fc5cde94937d5510200088471017aacf72764a",
+      "original_native_bytes": 53407,
+      "original_native_sha256": "09dd437300ff65e296d9393783b2c9f04ff0a054204328a8a0fabf27805a4485"
+    },
+    "stderr": {
+      "path": "captures/fresh-personal-PRs.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-origin-PRs",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/calliope/pulls?state=open&per_page=100"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:13.134184+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-origin-PRs.stdout.b64",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "original_native_bytes": 2,
+      "original_native_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "stderr": {
+      "path": "captures/fresh-origin-PRs.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-issue10",
+    "argv": [
+      "gh",
+      "api",
+      "repos/octave-commons/calliope/issues/10"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:14.361716+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-issue10.stdout.b64",
+      "bytes": 7251,
+      "sha256": "d0d246d9c2c231ccc1104ace3941a8be926e0581226f6106f2b944b99daf7e6f",
+      "original_native_bytes": 7241,
+      "original_native_sha256": "ca99afb1fbf6673630faada611f394decd5b9a3dced75586ee299a4ef10c5b5a"
+    },
+    "stderr": {
+      "path": "captures/fresh-issue10.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "fresh-issue10-comments",
+    "argv": [
+      "gh",
+      "api",
+      "--paginate",
+      "--slurp",
+      "repos/octave-commons/calliope/issues/10/comments?per_page=100"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:15.061865+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fresh-issue10-comments.stdout.b64",
+      "bytes": 4086,
+      "sha256": "7043da764092a9c13a5aea252edf669a9c99c3a680e8daae2ea79154dc7e8f5e",
+      "original_native_bytes": 3649,
+      "original_native_sha256": "122ae1d05ba80f4bf9dbd70760184730b4dba81a6b2eb1ff9151eecc2a74b98e"
+    },
+    "stderr": {
+      "path": "captures/fresh-issue10-comments.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "independent-full-clone",
+    "argv": [
+      "git",
+      "clone",
+      "--bare",
+      "--no-local",
+      "--no-hardlinks",
+      "/home/err/.codex/parallel-goal/issues-20261006/corpus-owner-intake-cf49f20275/calliope/source.git",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/source.git"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:16.888573+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/independent-full-clone.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/independent-full-clone.stderr.b64",
+      "bytes": 131,
+      "sha256": "dd861e2749874b0429d8e558446621c52eb402332cb879e5d94e4f0e91d15ac1",
+      "original_native_bytes": 131,
+      "original_native_sha256": "dd861e2749874b0429d8e558446621c52eb402332cb879e5d94e4f0e91d15ac1"
+    }
+  },
+  {
+    "name": "fetch-own-sync",
+    "argv": [
+      "git",
+      "--git-dir=/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/source.git",
+      "fetch",
+      "https://github.com/riatzukiza/calliope.git",
+      "refs/heads/codex/calliope-upstream-sync"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:17.317957+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/fetch-own-sync.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/fetch-own-sync.stderr.b64",
+      "bytes": 108,
+      "sha256": "9ed9d2d5f5601171c0f46a9da7169ad40db80b2bc61a6723c011c9bb92a39753",
+      "original_native_bytes": 108,
+      "original_native_sha256": "9ed9d2d5f5601171c0f46a9da7169ad40db80b2bc61a6723c011c9bb92a39753"
+    }
+  },
+  {
+    "name": "new-owned-worktree",
+    "argv": [
+      "git",
+      "--git-dir=/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/source.git",
+      "worktree",
+      "add",
+      "-b",
+      "codex/calliope-release-admission-planning",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+      "04e5ed3166941ff59b8f823d61465b9b015e8626"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:17.668576+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/new-owned-worktree.stdout.b64",
+      "bytes": 81,
+      "sha256": "cf310c71bde84b63c6c3a354a4122d2bf02b3c9712985528a19020fb146a0214",
+      "original_native_bytes": 81,
+      "original_native_sha256": "cf310c71bde84b63c6c3a354a4122d2bf02b3c9712985528a19020fb146a0214"
+    },
+    "stderr": {
+      "path": "captures/new-owned-worktree.stderr.b64",
+      "bytes": 76,
+      "sha256": "c6a31a5047ef48b29697730a15bcaa4047dfe96be8c17dac343b9692c0478f49",
+      "original_native_bytes": 76,
+      "original_native_sha256": "c6a31a5047ef48b29697730a15bcaa4047dfe96be8c17dac343b9692c0478f49"
+    }
+  },
+  {
+    "name": "full-fsck",
+    "argv": [
+      "git",
+      "fsck",
+      "--full",
+      "--no-reflogs"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:19.043556+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/full-fsck.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/full-fsck.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "complete-objects",
+    "argv": [
+      "git",
+      "rev-list",
+      "--objects",
+      "--all",
+      "--missing=print"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:19.052164+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/complete-objects.stdout.b64",
+      "bytes": 471545,
+      "sha256": "3c33de0280bd557068ca8b55c43b6e60e0c85cc829073d3a9405660fcda188ec",
+      "original_native_bytes": 471545,
+      "original_native_sha256": "3c33de0280bd557068ca8b55c43b6e60e0c85cc829073d3a9405660fcda188ec"
+    },
+    "stderr": {
+      "path": "captures/complete-objects.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "accepted-source-ancestor",
+    "argv": [
+      "git",
+      "merge-base",
+      "--is-ancestor",
+      "a731093b878f600ee30648a01f1a6cd44f3439f0",
+      "04e5ed3166941ff59b8f823d61465b9b015e8626"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:02:19.058400+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/accepted-source-ancestor.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/accepted-source-ancestor.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "original-native-card",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/rheos-cli.cjs",
+      "read-task",
+      "ft-004a-define-release-manifest-and-publication-target-laws",
+      "--config",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/board-original/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/board-original",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:06:14.728474+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/original-native-card.stdout.b64",
+      "bytes": 3438,
+      "sha256": "b1bce048644c155d9f40c76ed51edb4f648988fbe2b3c0b6b7050cc041472c2f",
+      "original_native_bytes": 3438,
+      "original_native_sha256": "b1bce048644c155d9f40c76ed51edb4f648988fbe2b3c0b6b7050cc041472c2f"
+    },
+    "stderr": {
+      "path": "captures/original-native-card.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "proposed-native-card",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/rheos-cli.cjs",
+      "read-task",
+      "ft-004a-define-release-manifest-and-publication-target-laws",
+      "--config",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/board-proposed/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/board-proposed",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:06:15.217559+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/proposed-native-card.stdout.b64",
+      "bytes": 10990,
+      "sha256": "2556af669af30f38ca2f4a65fffffec4811d91009c7b94c6dc24fa59ea5ea769",
+      "original_native_bytes": 10990,
+      "original_native_sha256": "2556af669af30f38ca2f4a65fffffec4811d91009c7b94c6dc24fa59ea5ea769"
+    },
+    "stderr": {
+      "path": "captures/proposed-native-card.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "portable-reflection-before",
+    "argv": [
+      "/usr/local/bin/bb",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:06:15.245397+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/portable-reflection-before.stdout.b64",
+      "bytes": 397,
+      "sha256": "2497ff4794e9e7bf510c0ae539b48dcd4e187cccaba45103a1d8167694c8a92e",
+      "original_native_bytes": 397,
+      "original_native_sha256": "2497ff4794e9e7bf510c0ae539b48dcd4e187cccaba45103a1d8167694c8a92e"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-before.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "final-proposed-native-card",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/rheos-cli.cjs",
+      "read-task",
+      "ft-004a-define-release-manifest-and-publication-target-laws",
+      "--config",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/board-final-proposed/openhax.kanban.json"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/board-final-proposed",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:07:21.789696+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/final-proposed-native-card.stdout.b64",
+      "bytes": 11174,
+      "sha256": "68538dbc8bf51437d5f266ed229e910cd7dd820430b79007623da7104f4b584c",
+      "original_native_bytes": 11174,
+      "original_native_sha256": "68538dbc8bf51437d5f266ed229e910cd7dd820430b79007623da7104f4b584c"
+    },
+    "stderr": {
+      "path": "captures/final-proposed-native-card.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "actual-owner-append",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/receipt-river/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/own-consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree/receipts.edn"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:07:22.012465+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/actual-owner-append.stdout.b64",
+      "bytes": 115,
+      "sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd",
+      "original_native_bytes": 115,
+      "original_native_sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd"
+    },
+    "stderr": {
+      "path": "captures/actual-owner-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "actual-owner-working-full-ledger",
+    "argv": [
+      "/home/err/.volta/tools/image/node/24.14.1/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/receipt-river/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/own-consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree/receipts.edn"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:07:22.373824+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/actual-owner-working-full-ledger.stdout.b64",
+      "bytes": 3044,
+      "sha256": "25a477a700ef4801720495ee97aa467e1102e6232a5ed225068bd0ed8ab4621a",
+      "original_native_bytes": 3044,
+      "original_native_sha256": "25a477a700ef4801720495ee97aa467e1102e6232a5ed225068bd0ed8ab4621a"
+    },
+    "stderr": {
+      "path": "captures/actual-owner-working-full-ledger.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "portable-reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/mycology/sm-log.bb",
+      "--task",
+      "Calliope10 existing FT004A full release-admission planning",
+      "--efficiency",
+      "0.88",
+      "--friction",
+      "0.22",
+      "--candidate",
+      "0.12",
+      "--receipt-refs",
+      "16f0d564b0c02ced5387caaffaaa8cb4ccf4b7d32edb48d27416d9e7f048f468",
+      "--note",
+      "Existing phase4 law card preserved; full issue crosswalk and current selectors before adapters. Peer identified optional recovery checkpoint wording; corrected without dropping provider failure facts. Native visibility is not readiness; no live fanout or spore."
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:07:22.391694+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/portable-reflection-append.stdout.b64",
+      "bytes": 140,
+      "sha256": "97e1f2810ed648798b143096e631b3339a77f3ecc5808d172a013a7495b1b50a",
+      "original_native_bytes": 140,
+      "original_native_sha256": "97e1f2810ed648798b143096e631b3339a77f3ecc5808d172a013a7495b1b50a"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "name": "portable-reflection-after",
+    "argv": [
+      "/usr/local/bin/bb",
+      "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "cwd": "/home/err/.codex/parallel-goal/issues-20261006/Calliope10-release-planning-6f04ce6184/worktree",
+    "exit": 0,
+    "captured_at": "2026-10-07T05:07:22.407622+00:00",
+    "structural_string_redaction_before_persistence": true,
+    "stdout": {
+      "path": "captures/portable-reflection-after.stdout.b64",
+      "bytes": 667,
+      "sha256": "7c6e78e4637c3c5b1fae48e0e41b646e66378c7d989269ce8c4157dafffae93a",
+      "original_native_bytes": 667,
+      "original_native_sha256": "7c6e78e4637c3c5b1fae48e0e41b646e66378c7d989269ce8c4157dafffae93a"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-after.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_native_bytes": 0,
+      "original_native_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

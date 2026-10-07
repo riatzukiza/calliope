@@ -1,0 +1,62 @@
+[
+  {
+    "source_path": ".github/workflows/classifier-dsl.yml",
+    "path": "source-evidence/.github/workflows/classifier-dsl.yml.b64",
+    "bytes": 2037,
+    "sha256": "9854c9615dc8dc7a06e87c6f2af9ed3b56954c7b9d18db7751d70aa4863ace52"
+  },
+  {
+    "source_path": ".github/workflows/eta-mu-review.yml",
+    "path": "source-evidence/.github/workflows/eta-mu-review.yml.b64",
+    "bytes": 1092,
+    "sha256": "9540d31aadc38330cfed5e88991846c8f974a82cf07519c30d1ae9b3c32799e8"
+  },
+  {
+    "source_path": "AGENTS.md",
+    "path": "source-evidence/AGENTS.md.b64",
+    "bytes": 11454,
+    "sha256": "f2ab3f1ed91530685ec6e97f2febea61645cc3e37241f711874f8717c950b6ed"
+  },
+  {
+    "source_path": "PROCESS.md",
+    "path": "source-evidence/PROCESS.md.b64",
+    "bytes": 9294,
+    "sha256": "e81cd2d74b5ddd06a954787ddf20e6c8f672087082a9d3e141c46da48a2a664b"
+  },
+  {
+    "source_path": "deps.edn",
+    "path": "source-evidence/deps.edn.b64",
+    "bytes": 2074,
+    "sha256": "d7e14fc7871051614863a79dee4a5dea68c9ce4da44cd6cd4782fff568c27458"
+  },
+  {
+    "source_path": "docs/adrs/adr-001-local-first-media-workbench.md",
+    "path": "source-evidence/docs/adrs/adr-001-local-first-media-workbench.md.b64",
+    "bytes": 8807,
+    "sha256": "60f05c0889cfff6130f068d9c0f658fa1fbd022aa4a814b93596141b5bfd285f"
+  },
+  {
+    "source_path": "docs/designs/media-workbench-v1.md",
+    "path": "source-evidence/docs/designs/media-workbench-v1.md.b64",
+    "bytes": 14635,
+    "sha256": "b9cecd1268bf5aeb37b9412dce4d48c66c154f730d70c88d0ce49941d8ba253d"
+  },
+  {
+    "source_path": "docs/kanban-docs/AGENTS.md",
+    "path": "source-evidence/docs/kanban-docs/AGENTS.md.b64",
+    "bytes": 5400,
+    "sha256": "50ea818d826faf9f1414476ae8769194bfd524645bd68953243f2243162c0f96"
+  },
+  {
+    "source_path": "docs/process/product-design-and-delivery.md",
+    "path": "source-evidence/docs/process/product-design-and-delivery.md.b64",
+    "bytes": 8312,
+    "sha256": "f07c6f76b1a52932fc65de1d45c76844265f862fb998ea643e7df02fa5165e0d"
+  },
+  {
+    "source_path": "test/calliope/test_runner.clj",
+    "path": "source-evidence/test/calliope/test_runner.clj.b64",
+    "bytes": 1198,
+    "sha256": "1edea13f24b3b1ea04a4b959480e14ad71000b8a1044f50abd0080ab185530bb"
+  }
+]

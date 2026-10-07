@@ -1,0 +1,30 @@
+{
+  "base": "04e5ed3166941ff59b8f823d61465b9b015e8626",
+  "inherited_entries": 1537,
+  "all_other_entries_exact": 1534,
+  "prefixes": [
+    {
+      "path": "docs/kanban/stories/ft-004a-define-release-and-target-laws.md",
+      "original_bytes": 2867,
+      "original_sha256": "faab25bafb77922d1262f66e94f6227e77a34fe8b7e8f9a39d38997ca3bf3c8d",
+      "append_bytes": 7560,
+      "original_full_byte_prefix_exact": true
+    },
+    {
+      "path": "receipts.edn",
+      "original_bytes": 151893,
+      "original_sha256": "c401c71b072274f923dc0f95eaa3865fff67f7a74e9026c2891cb96b5399a550",
+      "append_bytes": 2923,
+      "original_full_byte_prefix_exact": true
+    },
+    {
+      "path": ".\u03b7\u03bc/session-mycology/ledger.md",
+      "original_bytes": 366,
+      "original_sha256": "66b1b9e6903f74cbccc1d6c597572145f5c3e1b7e9264a2481215b476254dbef",
+      "append_bytes": 641,
+      "original_full_byte_prefix_exact": true
+    }
+  ],
+  "workflow_config_engine_ledgers_source_tests_unchanged": true,
+  "side_effects": "Native reads in three owned copied fixtures only; any empty artifacts retained outside candidate/source; no board mutation or parser"
+}

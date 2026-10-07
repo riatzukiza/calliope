@@ -1,0 +1,14 @@
+[
+  {
+    "fixture": "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/outside/calliope-board-fixture",
+    "inputs": 39,
+    "all_bytes_modes_exact": true,
+    "no_extra_files": true
+  },
+  {
+    "fixture": "/home/err/.codex/parallel-goal/issues-20261006/Calliope11-metadata-planning-fcc5542ff5/outside/board-refined",
+    "inputs": 39,
+    "all_bytes_modes_exact": true,
+    "no_extra_files": true
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "objects": {
+    "exit": 0,
+    "stderr": ""
+  },
+  "fsck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "shallow": {
+    "exit": 0,
+    "stdout": "false\n",
+    "stderr": ""
+  },
+  "config": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "personal_ancestor": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "divergence": {
+    "exit": 0,
+    "stdout": "0\t5\n",
+    "stderr": ""
+  },
+  "alternates": false,
+  "missing_count": 0,
+  "reachable_count": 5727,
+  "branch": {
+    "exit": 0,
+    "stderr": "Previous HEAD position was a731093 Merge pull request #19 from octave-commons/codex/restore-evidence-review\nSwitched to a new branch 'codex/calliope-suno-metadata-planning'\n"
+  }
+}

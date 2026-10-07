@@ -1,0 +1,98 @@
+[
+  {
+    "label": "canonical-first-calliope1",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts/pr.cljs",
+      "status",
+      "riatzukiza/calliope",
+      "1"
+    ],
+    "exit": 0,
+    "stdout": {
+      "path": "native/canonical-first-calliope1.stdout.b64",
+      "bytes": 528,
+      "sha256": "3ce33443b202434960d83e74abfa84b473cbfe80cddbd7c6a4a3db673e91a61e"
+    },
+    "stderr": {
+      "path": "native/canonical-first-calliope1.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "canonical-first-calliope2",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts/pr.cljs",
+      "status",
+      "riatzukiza/calliope",
+      "2"
+    ],
+    "exit": 0,
+    "stdout": {
+      "path": "native/canonical-first-calliope2.stdout.b64",
+      "bytes": 517,
+      "sha256": "047b46538645c72ec213f764190ab027b722536ac778f404dce5b3eb33db3a6b"
+    },
+    "stderr": {
+      "path": "native/canonical-first-calliope2.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "canonical-first-calliope3",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts/pr.cljs",
+      "status",
+      "riatzukiza/calliope",
+      "3"
+    ],
+    "exit": 0,
+    "stdout": {
+      "path": "native/canonical-first-calliope3.stdout.b64",
+      "bytes": 521,
+      "sha256": "5d5cf5daab87f4826aa1e9b21846ff9b5383b78e221ccb542dc256fb1ab6a41d"
+    },
+    "stderr": {
+      "path": "native/canonical-first-calliope3.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "canonical-first-calliope4",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts",
+      "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime/pr-flow/scripts/pr.cljs",
+      "status",
+      "riatzukiza/calliope",
+      "4"
+    ],
+    "exit": 0,
+    "stdout": {
+      "path": "native/canonical-first-calliope4.stdout.b64",
+      "bytes": 482,
+      "sha256": "f803b039cbeeadaee17bbfcb899c5ec6b3ed1e29ec04230718b2d7f75fb4b214"
+    },
+    "stderr": {
+      "path": "native/canonical-first-calliope4.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

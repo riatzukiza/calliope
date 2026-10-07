@@ -1,0 +1,48 @@
+{
+  "argv": [
+    "bwrap",
+    "--die-with-parent",
+    "--unshare-all",
+    "--ro-bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/runtime",
+    "/runtime",
+    "--ro-bind",
+    "/home/err/.codex/parallel-goal/issues-20261006/six-child-next-intake-6778689250/outside/calliope-board-fixture",
+    "/fixture",
+    "--ro-bind",
+    "/usr/lib",
+    "/usr/lib",
+    "--ro-bind",
+    "/lib",
+    "/lib",
+    "--ro-bind",
+    "/lib64",
+    "/lib64",
+    "--proc",
+    "/proc",
+    "--dev",
+    "/dev",
+    "--tmpfs",
+    "/tmp",
+    "--chdir",
+    "/tmp",
+    "/runtime/bin/node",
+    "/runtime/rheos/cli.cjs",
+    "kanban",
+    "read-task",
+    "calliope-issue-11-re-ingest-suno-metadata",
+    "--config",
+    "/fixture/openhax.kanban.json"
+  ],
+  "exit": 1,
+  "stdout": {
+    "path": "native/calliope11-native-read-task.stdout.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "native/calliope11-native-read-task.stderr.b64",
+    "bytes": 209,
+    "sha256": "56fa052f104fbedc6f6ca971879fec26957204f57cf751a3d528c877d5cbf091"
+  }
+}

@@ -1,0 +1,1298 @@
+[
+  {
+    "repo": "octave-commons/Truth",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/octave-commons--Truth.stdout.b64",
+        "bytes": 15827,
+        "sha256": "cf166ab8f34a686f4a0b9bec2b95582b3d3fe1dd51e1d0c8b9718cef8d7734b6"
+      },
+      "stderr": {
+        "path": "native/octave-commons--Truth.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "octave-commons/Truth",
+      "isFork": false,
+      "hasIssuesEnabled": true,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "58b0fd91ea65b7a4b3a1f571f22f3d394374a871"
+        }
+      },
+      "parent": null,
+      "issues": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "number": 26,
+            "title": "Isolate error-dump bundles and cleanup by owning run",
+            "updatedAt": "2026-10-07T00:53:53Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          },
+          {
+            "number": 31,
+            "title": "Reserve native capture output destinations atomically",
+            "updatedAt": "2026-10-07T01:05:50Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 45,
+        "nodes": [
+          {
+            "number": 8,
+            "title": "Restore launch, integrate spark rotation, and repair moving-frame planet births",
+            "updatedAt": "2026-10-06T20:02:58Z",
+            "isDraft": false,
+            "headRefOid": "c99a61c13e950542407b2bc8a78497e6d3b73fa8",
+            "baseRefOid": "0112e228e93abf346da31f15456290c1b4c9b7ae",
+            "baseRefName": "codex/truth-native-demo-tour",
+            "headRefName": "codex/truth-playable-gate"
+          },
+          {
+            "number": 9,
+            "title": "Plan spark controls, camera, and readable manual flight HUD",
+            "updatedAt": "2026-10-07T11:03:57Z",
+            "isDraft": false,
+            "headRefOid": "a268863c8f4d13711dc7626b39e66a10951b691b",
+            "baseRefOid": "c99a61c13e950542407b2bc8a78497e6d3b73fa8",
+            "baseRefName": "codex/truth-playable-gate",
+            "headRefName": "codex/truth-flight-controls-plan"
+          },
+          {
+            "number": 10,
+            "title": "Retain hosted review failure diagnostics through the upstream runtime",
+            "updatedAt": "2026-10-06T20:16:41Z",
+            "isDraft": false,
+            "headRefOid": "8807f32c1dcacf4569fb88354a1b6b0c4dcecfee",
+            "baseRefOid": "c99a61c13e950542407b2bc8a78497e6d3b73fa8",
+            "baseRefName": "codex/truth-playable-gate",
+            "headRefName": "codex/truth-review-runtime"
+          },
+          {
+            "number": 11,
+            "title": "Expose fine Spark flight controls without resetting momentum",
+            "updatedAt": "2026-10-06T20:31:45Z",
+            "isDraft": false,
+            "headRefOid": "6944df4ec266ec25059c89181fe3d07522d076b3",
+            "baseRefOid": "8807f32c1dcacf4569fb88354a1b6b0c4dcecfee",
+            "baseRefName": "codex/truth-review-runtime",
+            "headRefName": "codex/truth-flight-precision"
+          },
+          {
+            "number": 12,
+            "title": "Plan the missing causal steps from natural life toward a playable Gate",
+            "updatedAt": "2026-10-07T03:47:52Z",
+            "isDraft": false,
+            "headRefOid": "98b847ce75491bdccacf2ec3a7476d451270bf49",
+            "baseRefOid": "6944df4ec266ec25059c89181fe3d07522d076b3",
+            "baseRefName": "codex/truth-flight-precision",
+            "headRefName": "codex/truth-progression-plan"
+          },
+          {
+            "number": 13,
+            "title": "Plan explicit reference selection and bounded flight assist",
+            "updatedAt": "2026-10-07T01:40:39Z",
+            "isDraft": false,
+            "headRefOid": "0fce01b467f100426cae6f3c3da4e8af79e74322",
+            "baseRefOid": "6944df4ec266ec25059c89181fe3d07522d076b3",
+            "baseRefName": "codex/truth-flight-precision",
+            "headRefName": "codex/truth-flight-reference-plan"
+          },
+          {
+            "number": 14,
+            "title": "Add bounded simulation-time trails for stars, planets and the Spark",
+            "updatedAt": "2026-10-06T22:26:51Z",
+            "isDraft": false,
+            "headRefOid": "295031485bc5ced52850cf95bddf21394d9493ff",
+            "baseRefOid": "6944df4ec266ec25059c89181fe3d07522d076b3",
+            "baseRefName": "codex/truth-flight-precision",
+            "headRefName": "codex/truth-motion-trails-core"
+          },
+          {
+            "number": 15,
+            "title": "Repair native line rendering in the forward-compatible GL context",
+            "updatedAt": "2026-10-06T21:21:00Z",
+            "isDraft": false,
+            "headRefOid": "7f0f2b3fe65f91c2dc1305bcf3a02a3c7ef18cc1",
+            "baseRefOid": "295031485bc5ced52850cf95bddf21394d9493ff",
+            "baseRefName": "codex/truth-motion-trails-core",
+            "headRefName": "codex/truth-motion-trails"
+          },
+          {
+            "number": 16,
+            "title": "Apply manual focus commands once per physical key press",
+            "updatedAt": "2026-10-06T21:24:58Z",
+            "isDraft": false,
+            "headRefOid": "3064336a482bd7e93875808f6ad1200164347c68",
+            "baseRefOid": "7f0f2b3fe65f91c2dc1305bcf3a02a3c7ef18cc1",
+            "baseRefName": "codex/truth-motion-trails",
+            "headRefName": "codex/truth-focus-controls"
+          },
+          {
+            "number": 17,
+            "title": "Preserve native controls, trails and same-world repair evidence",
+            "updatedAt": "2026-10-06T22:07:53Z",
+            "isDraft": false,
+            "headRefOid": "74fe6df8e73e06838a9ada04af3c983cec73079c",
+            "baseRefOid": "3064336a482bd7e93875808f6ad1200164347c68",
+            "baseRefName": "codex/truth-focus-controls",
+            "headRefName": "codex/truth-focus-input"
+          },
+          {
+            "number": 18,
+            "title": "Plan magnetic-field visibility for readable motion trails",
+            "updatedAt": "2026-10-07T02:32:48Z",
+            "isDraft": false,
+            "headRefOid": "1ef53d69fdfcfd8431dd3711504052ad4e2eb618",
+            "baseRefOid": "3064336a482bd7e93875808f6ad1200164347c68",
+            "baseRefName": "codex/truth-focus-controls",
+            "headRefName": "codex/truth-magnetic-visibility-plan"
+          },
+          {
+            "number": 19,
+            "title": "Keep manual attention aligned at every simulation fold",
+            "updatedAt": "2026-10-07T00:18:52Z",
+            "isDraft": false,
+            "headRefOid": "2398808f545850938f79e5ca6cebc13a6f5e0158",
+            "baseRefOid": "74fe6df8e73e06838a9ada04af3c983cec73079c",
+            "baseRefName": "codex/truth-focus-input",
+            "headRefName": "codex/truth-focus-cadence"
+          },
+          {
+            "number": 20,
+            "title": "Recover the missing causal route to real Gate gameplay",
+            "updatedAt": "2026-10-06T23:40:26Z",
+            "isDraft": false,
+            "headRefOid": "8bcfc12d9ca2851891a4060f52f287f9b9f455f8",
+            "baseRefOid": "c99a61c13e950542407b2bc8a78497e6d3b73fa8",
+            "baseRefName": "codex/truth-playable-gate",
+            "headRefName": "codex/truth-gate-gap-evidence"
+          },
+          {
+            "number": 21,
+            "title": "docs: ground the existing mote-render plan in current behavior",
+            "updatedAt": "2026-10-06T22:19:20Z",
+            "isDraft": false,
+            "headRefOid": "6059730cc9969c2215382e57218813a9519925d7",
+            "baseRefOid": "b402939931575e377ae4409d9cd4061dff11df06",
+            "baseRefName": "codex/truth-focus-cadence",
+            "headRefName": "codex/truth-mote-readiness-plan"
+          },
+          {
+            "number": 22,
+            "title": "test: verify focus cadence in the retained native world",
+            "updatedAt": "2026-10-06T22:30:53Z",
+            "isDraft": false,
+            "headRefOid": "c79be1e957695505b48ea7f1905821927e7fb270",
+            "baseRefOid": "b402939931575e377ae4409d9cd4061dff11df06",
+            "baseRefName": "codex/truth-focus-cadence",
+            "headRefName": "codex/truth-focus-cadence-native"
+          },
+          {
+            "number": 23,
+            "title": "perf: measure the retained native workload and scope Kepler reuse",
+            "updatedAt": "2026-10-06T22:48:19Z",
+            "isDraft": false,
+            "headRefOid": "82d398d1b4ebe8384e577651e58445f976ce5855",
+            "baseRefOid": "b402939931575e377ae4409d9cd4061dff11df06",
+            "baseRefName": "codex/truth-focus-cadence",
+            "headRefName": "codex/truth-native-profile"
+          },
+          {
+            "number": 24,
+            "title": "docs: define the evidence boundary for independently earned Gate endpoints",
+            "updatedAt": "2026-10-06T22:53:39Z",
+            "isDraft": false,
+            "headRefOid": "01f0909b0c1cd5b86c274add98dfbf1b1146c2a4",
+            "baseRefOid": "96b19f086707388e43f272e5ec87a3a7378d4c4c",
+            "baseRefName": "codex/truth-progression-plan",
+            "headRefName": "codex/truth-gate-endpoints-plan"
+          },
+          {
+            "number": 25,
+            "title": "Verify a fresh natural game on the Intel GPU",
+            "updatedAt": "2026-10-06T23:54:55Z",
+            "isDraft": false,
+            "headRefOid": "4805fae52bd6764e4cf01555bc1d7417dd373349",
+            "baseRefOid": "c79be1e957695505b48ea7f1905821927e7fb270",
+            "baseRefName": "codex/truth-focus-cadence-native",
+            "headRefName": "codex/truth-hardware-native"
+          },
+          {
+            "number": 27,
+            "title": "test: pin Kepler trajectories and cost baseline",
+            "updatedAt": "2026-10-07T00:47:20Z",
+            "isDraft": false,
+            "headRefOid": "a50e51243672a6d8842f8f2fc233beb6db645a2f",
+            "baseRefOid": "2398808f545850938f79e5ca6cebc13a6f5e0158",
+            "baseRefName": "codex/truth-focus-cadence",
+            "headRefName": "codex/truth-kepler-baseline"
+          },
+          {
+            "number": 28,
+            "title": "perf: reduce Kepler propagation allocations",
+            "updatedAt": "2026-10-07T00:31:45Z",
+            "isDraft": false,
+            "headRefOid": "9c5c889d8923c76bf9a9530a8bd18cd72f37a93f",
+            "baseRefOid": "a50e51243672a6d8842f8f2fc233beb6db645a2f",
+            "baseRefName": "codex/truth-kepler-baseline",
+            "headRefName": "codex/truth-kepler-cost"
+          },
+          {
+            "number": 29,
+            "title": "Record native trail aging and visibility limits",
+            "updatedAt": "2026-10-07T00:52:28Z",
+            "isDraft": false,
+            "headRefOid": "34f56263e845448dd506f5ec85497e473e19ef81",
+            "baseRefOid": "4805fae52bd6764e4cf01555bc1d7417dd373349",
+            "baseRefName": "codex/truth-hardware-native",
+            "headRefName": "codex/truth-trail-native-visibility"
+          },
+          {
+            "number": 30,
+            "title": "Verify fresh native game on qualified source",
+            "updatedAt": "2026-10-07T01:55:01Z",
+            "isDraft": false,
+            "headRefOid": "4bfba34da458184cedb3d65a61fc8e731afc8942",
+            "baseRefOid": "9c5c889d8923c76bf9a9530a8bd18cd72f37a93f",
+            "baseRefName": "codex/truth-kepler-cost",
+            "headRefName": "codex/truth-native-current"
+          },
+          {
+            "number": 32,
+            "title": "Clear expired and departed warp-force contributions",
+            "updatedAt": "2026-10-07T01:27:10Z",
+            "isDraft": false,
+            "headRefOid": "76ba6a46139e4de2d769aed0d32f61d4025681d3",
+            "baseRefOid": "9c5c889d8923c76bf9a9530a8bd18cd72f37a93f",
+            "baseRefName": "codex/truth-kepler-cost",
+            "headRefName": "codex/truth-warp-lifecycle"
+          },
+          {
+            "number": 33,
+            "title": "Verify native trail visibility under close follow",
+            "updatedAt": "2026-10-07T01:41:40Z",
+            "isDraft": false,
+            "headRefOid": "81b4ae206d0cc04066e81771f05274180fa1ba19",
+            "baseRefOid": "90d6c2eb22442d7bb925c80136aabc1ddd7964b4",
+            "baseRefName": "codex/truth-native-current",
+            "headRefName": "codex/truth-trail-follow"
+          },
+          {
+            "number": 34,
+            "title": "Compose native capture recovery with the qualified warp repair",
+            "updatedAt": "2026-10-07T03:04:56Z",
+            "isDraft": false,
+            "headRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefOid": "76ba6a46139e4de2d769aed0d32f61d4025681d3",
+            "baseRefName": "codex/truth-warp-lifecycle",
+            "headRefName": "codex/truth-current-composition"
+          },
+          {
+            "number": 35,
+            "title": "Ground stellar substepping in mutual parent advancement",
+            "updatedAt": "2026-10-07T03:00:23Z",
+            "isDraft": false,
+            "headRefOid": "b50a4fa5d4b05f4044cf3bf5210c47b8959397e3",
+            "baseRefOid": "76ba6a46139e4de2d769aed0d32f61d4025681d3",
+            "baseRefName": "codex/truth-warp-lifecycle",
+            "headRefName": "codex/truth-star-heating-research"
+          },
+          {
+            "number": 36,
+            "title": "Specify current manual aim at sculpt consumption",
+            "updatedAt": "2026-10-07T03:48:54Z",
+            "isDraft": false,
+            "headRefOid": "7188fbab1400589c5a3ccadb560df6b5120a5f9b",
+            "baseRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefName": "codex/truth-current-composition",
+            "headRefName": "codex/truth-action-aim-plan"
+          },
+          {
+            "number": 37,
+            "title": "Plan native window disposal while retaining the simulation",
+            "updatedAt": "2026-10-07T05:13:44Z",
+            "isDraft": false,
+            "headRefOid": "5001c373b704cfd2c683177dffc63737f2c52f85",
+            "baseRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefName": "codex/truth-current-composition",
+            "headRefName": "codex/truth-window-close-plan"
+          },
+          {
+            "number": 38,
+            "title": "Propose the first represented-life cohort and resource contract",
+            "updatedAt": "2026-10-07T11:08:41Z",
+            "isDraft": false,
+            "headRefOid": "7e659bb4ce799ae324a2d64f8a7904888a5ecf2c",
+            "baseRefOid": "98b847ce75491bdccacf2ec3a7476d451270bf49",
+            "baseRefName": "codex/truth-progression-plan",
+            "headRefName": "codex/truth-life-actor-plan"
+          },
+          {
+            "number": 39,
+            "title": "Specify committed clock accounting and cutover boundaries",
+            "updatedAt": "2026-10-07T05:24:15Z",
+            "isDraft": false,
+            "headRefOid": "e093999875de78ce249cc13520fd4268575c1dd4",
+            "baseRefOid": "98b847ce75491bdccacf2ec3a7476d451270bf49",
+            "baseRefName": "codex/truth-progression-plan",
+            "headRefName": "codex/truth-clock-policy"
+          },
+          {
+            "number": 40,
+            "title": "perf: reduce allocation in grid radius queries",
+            "updatedAt": "2026-10-07T05:21:02Z",
+            "isDraft": false,
+            "headRefOid": "c598d813c3cb3d020aa13b35fd58e876b4a8f7d5",
+            "baseRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefName": "codex/truth-current-composition",
+            "headRefName": "codex/truth-grid-collector"
+          },
+          {
+            "number": 41,
+            "title": "Record natural planet formation and native approach input failure",
+            "updatedAt": "2026-10-07T06:52:15Z",
+            "isDraft": false,
+            "headRefOid": "954a7498494fad76c0391c4178fce71131b080b4",
+            "baseRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefName": "codex/truth-current-composition",
+            "headRefName": "codex/truth-natural-approach"
+          },
+          {
+            "number": 42,
+            "title": "Characterize callback releases and verify balanced native menu input",
+            "updatedAt": "2026-10-07T06:48:43Z",
+            "isDraft": false,
+            "headRefOid": "d703715bae567ef3681089bec3ab648783750031",
+            "baseRefOid": "954a7498494fad76c0391c4178fce71131b080b4",
+            "baseRefName": "codex/truth-natural-approach",
+            "headRefName": "codex/truth-input-menu-evidence"
+          },
+          {
+            "number": 43,
+            "title": "Verify initialized native camera steps and cursor roundtrip",
+            "updatedAt": "2026-10-07T07:05:58Z",
+            "isDraft": false,
+            "headRefOid": "1ef39b1a2a2763076dbda0f1e9cf65daa8e6227c",
+            "baseRefOid": "d703715bae567ef3681089bec3ab648783750031",
+            "baseRefName": "codex/truth-input-menu-evidence",
+            "headRefName": "codex/truth-native-input-probe"
+          },
+          {
+            "number": 44,
+            "title": "Research conserved condensed-water material budgets",
+            "updatedAt": "2026-10-07T07:00:58Z",
+            "isDraft": false,
+            "headRefOid": "8f9ee36b8848e046e40eb5fb36ab4cbab5ab6946",
+            "baseRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefName": "codex/truth-current-composition",
+            "headRefName": "codex/truth-condensed-water-research"
+          },
+          {
+            "number": 45,
+            "title": "Prepare a guarded persistent snapshot client for native verification",
+            "updatedAt": "2026-10-07T08:48:57Z",
+            "isDraft": false,
+            "headRefOid": "36692669c439043696a09e3c5144b899878b4718",
+            "baseRefOid": "1ef39b1a2a2763076dbda0f1e9cf65daa8e6227c",
+            "baseRefName": "codex/truth-native-input-probe",
+            "headRefName": "codex/truth-guarded-approach"
+          },
+          {
+            "number": 46,
+            "title": "Record the guarded native input smoke and 29 snapshot results",
+            "updatedAt": "2026-10-07T07:11:08Z",
+            "isDraft": false,
+            "headRefOid": "a29447c994e65e5b78c4e01efa4c11aec8d32206",
+            "baseRefOid": "36692669c439043696a09e3c5144b899878b4718",
+            "baseRefName": "codex/truth-guarded-approach",
+            "headRefName": "codex/truth-guarded-smoke-results"
+          },
+          {
+            "number": 47,
+            "title": "Plan a conserved water allocation and finite donor boundary",
+            "updatedAt": "2026-10-07T08:17:35Z",
+            "isDraft": false,
+            "headRefOid": "239eb9b2494241e3a9850b67b77d37407bd2191b",
+            "baseRefOid": "8f9ee36b8848e046e40eb5fb36ab4cbab5ab6946",
+            "baseRefName": "codex/truth-condensed-water-research",
+            "headRefName": "codex/truth-water-inventory-plan"
+          },
+          {
+            "number": 48,
+            "title": "Specify active player influence and retire passive halo",
+            "updatedAt": "2026-10-07T08:59:41Z",
+            "isDraft": false,
+            "headRefOid": "e77b3255212945602b96e1451347cbf9bc966676",
+            "baseRefOid": "b395c4049718f7ce015ddf25fc0a192d97821373",
+            "baseRefName": "codex/truth-current-composition",
+            "headRefName": "codex/truth-active-influence-plan"
+          },
+          {
+            "number": 49,
+            "title": "Qualify native thrust direction and release through ordinary controls",
+            "updatedAt": "2026-10-07T08:57:08Z",
+            "isDraft": false,
+            "headRefOid": "64f8141b40cfb8db94ea2f005004f068a3f47a72",
+            "baseRefOid": "a29447c994e65e5b78c4e01efa4c11aec8d32206",
+            "baseRefName": "codex/truth-guarded-smoke-results",
+            "headRefName": "codex/truth-physical-approach"
+          },
+          {
+            "number": 50,
+            "title": "Specify a proposed first cohort resource-action producer",
+            "updatedAt": "2026-10-07T09:42:14Z",
+            "isDraft": false,
+            "headRefOid": "7f05e4f47c5af55937e2d3149a8d293ae0870e36",
+            "baseRefOid": "4a4b4f63309b4b99ed211c9c186840fe0e8d3f33",
+            "baseRefName": "codex/truth-life-actor-plan",
+            "headRefName": "codex/truth-life-action-plan"
+          },
+          {
+            "number": 51,
+            "title": "Record natural formation and commitment-readiness diagnostic",
+            "updatedAt": "2026-10-07T09:13:49Z",
+            "isDraft": false,
+            "headRefOid": "7f1fbcae786a7aa4c6b1cb2eed5d79dd71bb6e58",
+            "baseRefOid": "64f8141b40cfb8db94ea2f005004f068a3f47a72",
+            "baseRefName": "codex/truth-physical-approach",
+            "headRefName": "codex/truth-natural-flight-profile"
+          },
+          {
+            "number": 52,
+            "title": "Document compact substep clamp and measurement boundary",
+            "updatedAt": "2026-10-07T09:41:33Z",
+            "isDraft": false,
+            "headRefOid": "659b99a379aa6fb5400edb32fda35aa44d9b859f",
+            "baseRefOid": "7f1fbcae786a7aa4c6b1cb2eed5d79dd71bb6e58",
+            "baseRefName": "codex/truth-natural-flight-profile",
+            "headRefName": "codex/truth-compact-clamp-research"
+          },
+          {
+            "number": 53,
+            "title": "Observe natural commit-ready candidates and input acknowledgement limits",
+            "updatedAt": "2026-10-07T09:55:04Z",
+            "isDraft": false,
+            "headRefOid": "a48a9ec76a6118b1557d11a4bc78e4caae45cdc6",
+            "baseRefOid": "7f1fbcae786a7aa4c6b1cb2eed5d79dd71bb6e58",
+            "baseRefName": "codex/truth-natural-flight-profile",
+            "headRefName": "codex/truth-ready-candidate-approach"
+          },
+          {
+            "number": 54,
+            "title": "Observe bounded input acknowledgements and record natural-target aim timeout",
+            "updatedAt": "2026-10-07T10:12:25Z",
+            "isDraft": false,
+            "headRefOid": "aa1fd95be217f21056160327fe695104e945331b",
+            "baseRefOid": "a48a9ec76a6118b1557d11a4bc78e4caae45cdc6",
+            "baseRefName": "codex/truth-ready-candidate-approach",
+            "headRefName": "codex/truth-input-observation-window"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "riatzukiza/Truth",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/riatzukiza--Truth.stdout.b64",
+        "bytes": 2312,
+        "sha256": "3cfab15a39682a1c674d091631213ca1c30089d827ce2aceea32217d9a003206"
+      },
+      "stderr": {
+        "path": "native/riatzukiza--Truth.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "riatzukiza/Truth",
+      "isFork": true,
+      "hasIssuesEnabled": false,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "b76e87381c3ed39c66059236bb14843cecc85ff7"
+        }
+      },
+      "parent": {
+        "nameWithOwner": "octave-commons/Truth"
+      },
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 6,
+        "nodes": [
+          {
+            "number": 1,
+            "title": "docs: plan a three-site hydro fixture slice",
+            "updatedAt": "2026-10-06T16:25:19Z",
+            "isDraft": false,
+            "headRefOid": "977d3e4d2f3ce09a46708be971e37636d0a087bb",
+            "baseRefOid": "b76e87381c3ed39c66059236bb14843cecc85ff7",
+            "baseRefName": "main",
+            "headRefName": "codex/audit-truth-static-fixtures"
+          },
+          {
+            "number": 2,
+            "title": "chore: synchronize accepted Truth upstream history",
+            "updatedAt": "2026-10-07T00:04:21Z",
+            "isDraft": false,
+            "headRefOid": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+            "baseRefOid": "b76e87381c3ed39c66059236bb14843cecc85ff7",
+            "baseRefName": "main",
+            "headRefName": "codex/truth-sync-upstream-58b0fd9"
+          },
+          {
+            "number": 3,
+            "title": "plan: isolate error-dump bundles by owning run",
+            "updatedAt": "2026-10-07T00:06:13Z",
+            "isDraft": false,
+            "headRefOid": "03a3bf0280576ff8001b060ca47344ba11352da8",
+            "baseRefOid": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+            "baseRefName": "codex/truth-sync-upstream-58b0fd9",
+            "headRefName": "codex/truth-error-dump-isolation-plan"
+          },
+          {
+            "number": 4,
+            "title": "Plan fail-closed accepted-sync metadata verification",
+            "updatedAt": "2026-10-07T01:25:21Z",
+            "isDraft": false,
+            "headRefOid": "7b02000a0bc04b9ceda798992e91c256ac806ff0",
+            "baseRefOid": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+            "baseRefName": "codex/truth-sync-upstream-58b0fd9",
+            "headRefName": "codex/truth-metadata-review-repair-plan"
+          },
+          {
+            "number": 5,
+            "title": "Plan capture reservation and scenario rollback repairs",
+            "updatedAt": "2026-10-07T01:25:34Z",
+            "isDraft": false,
+            "headRefOid": "66313258e8ff0cc8dc679966f70f655ecb4318da",
+            "baseRefOid": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+            "baseRefName": "codex/truth-sync-upstream-58b0fd9",
+            "headRefName": "codex/truth-runtime-review-repair-plan"
+          },
+          {
+            "number": 6,
+            "title": "Retain fresh coverage evidence and propose admission policy",
+            "updatedAt": "2026-10-07T01:25:48Z",
+            "isDraft": false,
+            "headRefOid": "b3c7623da73c86e41f680a16d9c1088d983b9fa9",
+            "baseRefOid": "b239e6bf1a43fcce64ccebf9234b0a1ff0734be1",
+            "baseRefName": "codex/truth-sync-upstream-58b0fd9",
+            "headRefName": "codex/truth-coverage-admission-evidence"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "octave-commons/epiphany",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/octave-commons--epiphany.stdout.b64",
+        "bytes": 749,
+        "sha256": "8535004ef08fd0b9051a49bdf395cac799d860104c7735ab9d7e6fed411fb1a7"
+      },
+      "stderr": {
+        "path": "native/octave-commons--epiphany.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "octave-commons/epiphany",
+      "isFork": false,
+      "hasIssuesEnabled": true,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "643be698ea0d841dd19385506b272872306e456e"
+        }
+      },
+      "parent": null,
+      "issues": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "number": 15,
+            "title": "Confirm Clio event-ledger ownership and publish ADR",
+            "updatedAt": "2026-10-06T18:03:02Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "number": 18,
+            "title": "Restore Clio EDN observations and enforce clean JVM gates",
+            "updatedAt": "2026-10-06T14:48:39Z",
+            "isDraft": false,
+            "headRefOid": "de47366e82f3f4b6405020776f3c3428aaef0596",
+            "baseRefOid": "643be698ea0d841dd19385506b272872306e456e",
+            "baseRefName": "main",
+            "headRefName": "feat/clio-edn-recovery"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "riatzukiza/epiphany",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/riatzukiza--epiphany.stdout.b64",
+        "bytes": 969,
+        "sha256": "2199c0c5d03f2e3c5a2ea59ac50c1db4daee124678eb570cd110a5852d20c217"
+      },
+      "stderr": {
+        "path": "native/riatzukiza--epiphany.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "riatzukiza/epiphany",
+      "isFork": true,
+      "hasIssuesEnabled": false,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "643be698ea0d841dd19385506b272872306e456e"
+        }
+      },
+      "parent": {
+        "nameWithOwner": "octave-commons/epiphany"
+      },
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "number": 1,
+            "title": "docs: define Rheos document-provider evidence boundary",
+            "updatedAt": "2026-10-03T15:45:36Z",
+            "isDraft": false,
+            "headRefOid": "a5e70b20f11c9b2f3c7aad552a46bc51fbe06a28",
+            "baseRefOid": "643be698ea0d841dd19385506b272872306e456e",
+            "baseRefName": "main",
+            "headRefName": "codex/rheos-content-provider-design"
+          },
+          {
+            "number": 2,
+            "title": "docs: plan isolated registration and candidate admission repairs",
+            "updatedAt": "2026-10-06T16:04:40Z",
+            "isDraft": false,
+            "headRefOid": "8d6587ef7a01e75b00ce98b2b6ceee40a190ebc2",
+            "baseRefOid": "643be698ea0d841dd19385506b272872306e456e",
+            "baseRefName": "main",
+            "headRefName": "codex/epiphany-request-admission-plan"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "octave-commons/calliope",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/octave-commons--calliope.stdout.b64",
+        "bytes": 1096,
+        "sha256": "c93cbe5e2d867c3842ada848d5157fcad480aa8fc80f7f7ac8f45397eed6ef35"
+      },
+      "stderr": {
+        "path": "native/octave-commons--calliope.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "octave-commons/calliope",
+      "isFork": false,
+      "hasIssuesEnabled": true,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "a731093b878f600ee30648a01f1a6cd44f3439f0"
+        }
+      },
+      "parent": null,
+      "issues": {
+        "totalCount": 6,
+        "nodes": [
+          {
+            "number": 9,
+            "title": "Port pure studio content laws to current Calliope",
+            "updatedAt": "2026-08-30T00:16:21Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 10,
+            "title": "Separate release admission from publication execution",
+            "updatedAt": "2026-08-30T00:16:23Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 11,
+            "title": "Re-ingest Suno metadata and rebuild its projection",
+            "updatedAt": "2026-08-30T00:16:25Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "Reconcile the accepted native runtime ADR and spikes",
+            "updatedAt": "2026-08-30T00:16:27Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "Land the portable sonic-seed skill with hosted tests",
+            "updatedAt": "2026-10-06T17:26:15Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 14,
+            "title": "Package and publish the sonic-seed runtime reproducibly",
+            "updatedAt": "2026-08-30T00:16:21Z",
+            "labels": {
+              "nodes": []
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 0,
+        "nodes": []
+      }
+    }
+  },
+  {
+    "repo": "riatzukiza/calliope",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/riatzukiza--calliope.stdout.b64",
+        "bytes": 1621,
+        "sha256": "84b817e00280fbeafbfb409fecc0c54072b98e197c2e6a9d04800e9cb22f296c"
+      },
+      "stderr": {
+        "path": "native/riatzukiza--calliope.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "riatzukiza/calliope",
+      "isFork": true,
+      "hasIssuesEnabled": false,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "efe85a036504adfb45d8cab26920a6d4482aa53d"
+        }
+      },
+      "parent": {
+        "nameWithOwner": "octave-commons/calliope"
+      },
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 4,
+        "nodes": [
+          {
+            "number": 1,
+            "title": "chore: synchronize accepted Calliope history",
+            "updatedAt": "2026-10-06T17:31:49Z",
+            "isDraft": false,
+            "headRefOid": "04e5ed3166941ff59b8f823d61465b9b015e8626",
+            "baseRefOid": "efe85a036504adfb45d8cab26920a6d4482aa53d",
+            "baseRefName": "main",
+            "headRefName": "codex/calliope-upstream-sync"
+          },
+          {
+            "number": 2,
+            "title": "docs: refine portable sonic-seed planning",
+            "updatedAt": "2026-10-06T17:22:53Z",
+            "isDraft": false,
+            "headRefOid": "df4ee1e7177367521b84f35adf5f4ef09f9e862c",
+            "baseRefOid": "04e5ed3166941ff59b8f823d61465b9b015e8626",
+            "baseRefName": "codex/calliope-upstream-sync",
+            "headRefName": "codex/calliope-sonic-seed-plan"
+          },
+          {
+            "number": 3,
+            "title": "docs: refine complete studio-content law planning",
+            "updatedAt": "2026-10-06T22:16:16Z",
+            "isDraft": false,
+            "headRefOid": "ef1885c16950355ffaf9e640189004f0aa9a24e4",
+            "baseRefOid": "04e5ed3166941ff59b8f823d61465b9b015e8626",
+            "baseRefName": "codex/calliope-upstream-sync",
+            "headRefName": "codex/calliope-studio-law-plan"
+          },
+          {
+            "number": 4,
+            "title": "plan: refine release admission and target publication laws",
+            "updatedAt": "2026-10-07T05:17:35Z",
+            "isDraft": true,
+            "headRefOid": "287895c23d60a69cab605a6d56fcf4cb50e2d32e",
+            "baseRefOid": "04e5ed3166941ff59b8f823d61465b9b015e8626",
+            "baseRefName": "codex/calliope-upstream-sync",
+            "headRefName": "codex/calliope-release-admission-planning"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "octave-commons/shx",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/octave-commons--shx.stdout.b64",
+        "bytes": 290,
+        "sha256": "c526db7a482b6e4b6d841fbc250d6979dd500dc3c272618b533d1dbdcf3a8bb0"
+      },
+      "stderr": {
+        "path": "native/octave-commons--shx.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "octave-commons/shx",
+      "isFork": false,
+      "hasIssuesEnabled": true,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "f4ee133dcf1650c7eafb623ef084f62417252477"
+        }
+      },
+      "parent": null,
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 0,
+        "nodes": []
+      }
+    }
+  },
+  {
+    "repo": "riatzukiza/shx",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/riatzukiza--shx.stdout.b64",
+        "bytes": 1637,
+        "sha256": "47d040d427da07a3c047f525560934e8b49696aed8d97288fa59f4df5f865632"
+      },
+      "stderr": {
+        "path": "native/riatzukiza--shx.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "riatzukiza/shx",
+      "isFork": true,
+      "hasIssuesEnabled": false,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "c3a6631a39e57d88898c3ba52cd62573e4b9ecf9"
+        }
+      },
+      "parent": {
+        "nameWithOwner": "octave-commons/shx"
+      },
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 4,
+        "nodes": [
+          {
+            "number": 1,
+            "title": "chore: synchronize accepted upstream Shx history",
+            "updatedAt": "2026-10-06T20:23:38Z",
+            "isDraft": false,
+            "headRefOid": "f4ee133dcf1650c7eafb623ef084f62417252477",
+            "baseRefOid": "c3a6631a39e57d88898c3ba52cd62573e4b9ecf9",
+            "baseRefName": "main",
+            "headRefName": "codex/shx-sync-upstream-f4ee133"
+          },
+          {
+            "number": 2,
+            "title": "docs: refine bb emitter test planning and retained CLI scope",
+            "updatedAt": "2026-10-06T20:13:38Z",
+            "isDraft": false,
+            "headRefOid": "698efc86a3749db0fdc4ce62e1dac2ec71f1f5a5",
+            "baseRefOid": "f4ee133dcf1650c7eafb623ef084f62417252477",
+            "baseRefName": "codex/shx-sync-upstream-f4ee133",
+            "headRefName": "codex/shx-bb-emitter-test-planning"
+          },
+          {
+            "number": 3,
+            "title": "Plan complete isolated shx.core runtime",
+            "updatedAt": "2026-10-06T23:01:55Z",
+            "isDraft": false,
+            "headRefOid": "e271747deae46bd2f50d77d3a7b8d4b8f0d4ca00",
+            "baseRefOid": "f4ee133dcf1650c7eafb623ef084f62417252477",
+            "baseRefName": "codex/shx-sync-upstream-f4ee133",
+            "headRefName": "codex/shx-core-runtime-planning"
+          },
+          {
+            "number": 4,
+            "title": "plan: add structural reports and namespace-boundary gates",
+            "updatedAt": "2026-10-07T05:48:09Z",
+            "isDraft": true,
+            "headRefOid": "1d134133067ab2d4f1372d9469e13fe016b8263d",
+            "baseRefOid": "f4ee133dcf1650c7eafb623ef084f62417252477",
+            "baseRefName": "codex/shx-sync-upstream-f4ee133",
+            "headRefName": "codex/shx-structural-boundary-planning"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "octave-commons/bitch-tracker",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/octave-commons--bitch-tracker.stdout.b64",
+        "bytes": 751,
+        "sha256": "748873bb81036b38a14dd312f7a17ff10347d88c82aef2407a5a9fb0901e43cb"
+      },
+      "stderr": {
+        "path": "native/octave-commons--bitch-tracker.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "octave-commons/bitch-tracker",
+      "isFork": false,
+      "hasIssuesEnabled": true,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb"
+        }
+      },
+      "parent": null,
+      "issues": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "number": 4,
+            "title": "Sanitize and deterministically build plugin artifacts",
+            "updatedAt": "2026-10-06T18:00:03Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          },
+          {
+            "number": 5,
+            "title": "Extract pure reaction, dedup, and watchlist laws",
+            "updatedAt": "2026-10-06T16:18:00Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          },
+          {
+            "number": 6,
+            "title": "Implement Discord, Socket.IO, and OpenPlanner adapters",
+            "updatedAt": "2026-10-06T22:54:20Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 0,
+        "nodes": []
+      }
+    }
+  },
+  {
+    "repo": "riatzukiza/bitch-tracker",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/riatzukiza--bitch-tracker.stdout.b64",
+        "bytes": 958,
+        "sha256": "66da0cfb812ad725bccf0af61f8df886760db772f610302b9f85fb18ddb5ec1c"
+      },
+      "stderr": {
+        "path": "native/riatzukiza--bitch-tracker.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "riatzukiza/bitch-tracker",
+      "isFork": true,
+      "hasIssuesEnabled": false,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb"
+        }
+      },
+      "parent": {
+        "nameWithOwner": "octave-commons/bitch-tracker"
+      },
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "number": 1,
+            "title": "Plan pure reaction-label state and author-count laws",
+            "updatedAt": "2026-10-06T16:28:46Z",
+            "isDraft": false,
+            "headRefOid": "64af437938b15b0e0bd37c80cc01610a1dc25992",
+            "baseRefOid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb",
+            "baseRefName": "main",
+            "headRefName": "codex/issue5-reaction-label-planning"
+          },
+          {
+            "number": 2,
+            "title": "Plan complete source-only artifact and privacy proof",
+            "updatedAt": "2026-10-06T18:01:03Z",
+            "isDraft": false,
+            "headRefOid": "c2b9cc2c817825095239f70fb116af8a1cd3ad74",
+            "baseRefOid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb",
+            "baseRefName": "main",
+            "headRefName": "codex/bitch-artifact-planning"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "octave-commons/muse",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/octave-commons--muse.stdout.b64",
+        "bytes": 1018,
+        "sha256": "764b71f85f4793686983659b3443d56c2bbccb2d1a0d5fb2189d67fba82bbb03"
+      },
+      "stderr": {
+        "path": "native/octave-commons--muse.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "octave-commons/muse",
+      "isFork": false,
+      "hasIssuesEnabled": true,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "c1369c223cf3c57e3e31934a6d746bfcdfe73f5a"
+        }
+      },
+      "parent": null,
+      "issues": {
+        "totalCount": 3,
+        "nodes": [
+          {
+            "number": 11,
+            "title": "build: make generated host targets work from a cold checkout",
+            "updatedAt": "2026-08-30T00:16:26Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 12,
+            "title": "review: make self-authored publication truthful",
+            "updatedAt": "2026-08-30T00:11:26Z",
+            "labels": {
+              "nodes": []
+            }
+          },
+          {
+            "number": 13,
+            "title": "review: bind summary claims to current evidence",
+            "updatedAt": "2026-10-06T18:35:27Z",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "blocked"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pullRequests": {
+        "totalCount": 1,
+        "nodes": [
+          {
+            "number": 14,
+            "title": "build: generate host entries before Shadow discovery",
+            "updatedAt": "2026-10-06T14:02:58Z",
+            "isDraft": false,
+            "headRefOid": "5a4aa510626d13705434ca93a8537bbdb288b097",
+            "baseRefOid": "846b47efd1fa5f9e72f6fe8b2cf45cfb347aba0f",
+            "baseRefName": "main",
+            "headRefName": "build/cold-generated-host-targets"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "repo": "riatzukiza/muse",
+    "exit": 0,
+    "captures": {
+      "stdout": {
+        "path": "native/riatzukiza--muse.stdout.b64",
+        "bytes": 1635,
+        "sha256": "1374e2200b07ce0a5b71fd81c685c11bf137c599720371142677dd0935868362"
+      },
+      "stderr": {
+        "path": "native/riatzukiza--muse.stderr.b64",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "inventory": {
+      "nameWithOwner": "riatzukiza/muse",
+      "isFork": true,
+      "hasIssuesEnabled": false,
+      "defaultBranchRef": {
+        "name": "main",
+        "target": {
+          "oid": "04f91e39cb74af722a439340fd29afe914e72a30"
+        }
+      },
+      "parent": {
+        "nameWithOwner": "octave-commons/muse"
+      },
+      "issues": {
+        "totalCount": 0,
+        "nodes": []
+      },
+      "pullRequests": {
+        "totalCount": 4,
+        "nodes": [
+          {
+            "number": 1,
+            "title": "chore: synchronize accepted Muse upstream baseline",
+            "updatedAt": "2026-10-06T14:08:45Z",
+            "isDraft": true,
+            "headRefOid": "846b47efd1fa5f9e72f6fe8b2cf45cfb347aba0f",
+            "baseRefOid": "04f91e39cb74af722a439340fd29afe914e72a30",
+            "baseRefName": "main",
+            "headRefName": "chore/sync-upstream-main-846b47e"
+          },
+          {
+            "number": 2,
+            "title": "fix: isolate cold generated host target builds",
+            "updatedAt": "2026-10-06T14:05:18Z",
+            "isDraft": false,
+            "headRefOid": "0a38fd37f64b1d4f30cf9d48f64744ce1874e2ca",
+            "baseRefOid": "846b47efd1fa5f9e72f6fe8b2cf45cfb347aba0f",
+            "baseRefName": "chore/sync-upstream-main-846b47e",
+            "headRefName": "fix/cold-generated-host-targets"
+          },
+          {
+            "number": 3,
+            "title": "Plan current-evidence review summary publication",
+            "updatedAt": "2026-10-06T18:35:15Z",
+            "isDraft": false,
+            "headRefOid": "6c431b08be7d3943a55ac1dbf6f13dcc13a2c98a",
+            "baseRefOid": "846b47efd1fa5f9e72f6fe8b2cf45cfb347aba0f",
+            "baseRefName": "chore/sync-upstream-main-846b47e",
+            "headRefName": "codex/muse-current-evidence-planning"
+          },
+          {
+            "number": 4,
+            "title": "Plan truthful self-authored review publication",
+            "updatedAt": "2026-10-07T05:50:42Z",
+            "isDraft": true,
+            "headRefOid": "59bb5f898ec51c51c2324d061857d790a04514f2",
+            "baseRefOid": "846b47efd1fa5f9e72f6fe8b2cf45cfb347aba0f",
+            "baseRefName": "chore/sync-upstream-main-846b47e",
+            "headRefName": "codex/muse12-self-authored-publication-plan"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "path": ".github/workflows/classifier-dsl.yml",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "19906d7f67717d26cd97ad4c329a8e1fb69d934f",
+    "bytes": 2037,
+    "sha256": "9854c9615dc8dc7a06e87c6f2af9ed3b56954c7b9d18db7751d70aa4863ace52"
+  },
+  {
+    "path": ".github/workflows/eta-mu-review.yml",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "755721ad3987e24b24184ea82f14b2fb31cc35b3",
+    "bytes": 1092,
+    "sha256": "9540d31aadc38330cfed5e88991846c8f974a82cf07519c30d1ae9b3c32799e8"
+  },
+  {
+    "path": "AGENTS.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "5a0e86a1d8ad208aa67ce262b782ee6e36cf95c3",
+    "bytes": 11454,
+    "sha256": "f2ab3f1ed91530685ec6e97f2febea61645cc3e37241f711874f8717c950b6ed"
+  },
+  {
+    "path": "PROCESS.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "250d8b4c8ecb9e7ad2174c581f42260a7865329d",
+    "bytes": 9294,
+    "sha256": "e81cd2d74b5ddd06a954787ddf20e6c8f672087082a9d3e141c46da48a2a664b"
+  },
+  {
+    "path": "bb.edn",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "64aee25dd54e8fd299e8dfec61fa762c24b4814d",
+    "bytes": 460,
+    "sha256": "0bc6477ba8d23165dae2ff7793740a78f60a070b98324a3d8b0ab8b063487632"
+  },
+  {
+    "path": "deps.edn",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "49c3ad13cff5c481465050b9428a68826f210949",
+    "bytes": 2074,
+    "sha256": "d7e14fc7871051614863a79dee4a5dea68c9ce4da44cd6cd4782fff568c27458"
+  },
+  {
+    "path": "docs/adrs/adr-001-local-first-media-workbench.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "b976004865f16b324f887e8eb03c7aef67a1f667",
+    "bytes": 8807,
+    "sha256": "60f05c0889cfff6130f068d9c0f658fa1fbd022aa4a814b93596141b5bfd285f"
+  },
+  {
+    "path": "docs/adrs/adr-002-manifest-addressed-external-media-dataset.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "1cc1f86271d8de5310a34e29a893c9ecb4b25c59",
+    "bytes": 5656,
+    "sha256": "34510f666ac4d281ed5751bfa22fa5dbcd9e26b34b8e8db9501b6763c8457b99"
+  },
+  {
+    "path": "docs/designs/media-workbench-v1.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "b117b7e58f985b054b6781318bd2f670dcb6518e",
+    "bytes": 14635,
+    "sha256": "b9cecd1268bf5aeb37b9412dce4d48c66c154f730d70c88d0ce49941d8ba253d"
+  },
+  {
+    "path": "docs/kanban-docs/AGENTS.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "2b684c1fa28144b3303e81b1fd436b54834636b2",
+    "bytes": 5400,
+    "sha256": "50ea818d826faf9f1414476ae8769194bfd524645bd68953243f2243162c0f96"
+  },
+  {
+    "path": "docs/process/product-design-and-delivery.md",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "69056852544f46468c96e0e977209899862827d5",
+    "bytes": 8312,
+    "sha256": "f07c6f76b1a52932fc65de1d45c76844265f862fb998ea643e7df02fa5165e0d"
+  },
+  {
+    "path": "openhax.kanban.json",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "ee4c4d6c23f92097e23db7c0708472ffcd4434d1",
+    "bytes": 57,
+    "sha256": "cceda23a75123133808ab2352eb969b691fa88f3a9bfc69dbe4d3f349d147871"
+  },
+  {
+    "path": "scripts/corpus.clj",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "f59fee3e1fe785951e7707d6e1fc0b7fc7edf8f0",
+    "bytes": 23329,
+    "sha256": "b206240dd07d559598d796cfb7a7ad6c858d1dbf9de3c3ac8ab59e9cf51c078e"
+  },
+  {
+    "path": "scripts/media.clj",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "77f8af2c57580f836adf00f53cc1fd67e50a9c91",
+    "bytes": 7965,
+    "sha256": "f1c5bd578fdcfd65b4d4854f3bc9d4131455b22ec86673fad5c42ef8e8356b29"
+  },
+  {
+    "path": "src/calliope/law/media.cljc",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "3584a79c7241c9b0179c7e75acc30f10f47477cd",
+    "bytes": 1812,
+    "sha256": "f83a9ff4112e841c7fcbb09f802de12fbfdaa7e3bef022a20e579cf944f12386"
+  },
+  {
+    "path": "src/calliope/media/dataset.cljc",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "05ac2eb2f8991f3f7be3b68f5659197f2a60a5d5",
+    "bytes": 23888,
+    "sha256": "d0f781f4d96d6d46092ce4e02bf3cf4af19ffd3e6465f33f622386f550d3b4c0"
+  },
+  {
+    "path": "src/calliope/media/manifest.cljc",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "bfbbee223280e1f794da7b48765ef920931100cf",
+    "bytes": 2598,
+    "sha256": "4e2032bf24f80f7d7442108ad96470b4bc8e689539008ceb43437227776ddb0c"
+  },
+  {
+    "path": "test/calliope/media/ingestion_test.clj",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "f7ba9208ca29551acd6f5a1a07709c3c86d6d9bb",
+    "bytes": 7959,
+    "sha256": "565a5deef7b4c81509377e9be08be3d952afbff1f23ad2cb7b0d01b7cea10bfe"
+  },
+  {
+    "path": "test/calliope/test_runner.clj",
+    "mode": "100644",
+    "type": "blob",
+    "oid": "fd60ab79d2fe560b6fa235521e2c3d3637fa6646",
+    "bytes": 1198,
+    "sha256": "1edea13f24b3b1ea04a4b959480e14ad71000b8a1044f50abd0080ab185530bb"
+  }
+]

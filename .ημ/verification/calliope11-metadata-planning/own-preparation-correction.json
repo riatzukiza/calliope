@@ -1,0 +1,11 @@
+{
+  "failed_attempt": "newline Git --name-only encoded Unicode reflection path with C quoting; operator verifier compared appended ledger as unchanged source and stopped",
+  "actual_cause": "Own filename enumeration setup error, no unexpected source mutation",
+  "correction": "NUL-delimited Git --name-only -z; all other source identities and three permitted prefixes verify",
+  "outcome": "No extra receipt, source fix, remote action, new issue or scope change",
+  "staging_attempt": {
+    "exit": 1,
+    "message": "git add warned inherited reflection directory ignored; all named tracked and new intended files were nonetheless staged",
+    "correction": "Inspected exact index; git add -u on existing tracked reflection plus other explicit staged paths, no ignore policy change"
+  }
+}

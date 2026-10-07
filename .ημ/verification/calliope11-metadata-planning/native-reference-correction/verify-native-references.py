@@ -13,7 +13,7 @@ def references(value):
     """Discover native transport entries in a JSON manifest recursively."""
     if isinstance(value, dict):
         path = value.get("path")
-        if isinstance(path, str) and path.startswith("native/") and "bytes" in value and "sha256" in value:
+        if isinstance(path, str) and path.startswith("native/"):
             yield value
         for child in value.values():
             yield from references(child)

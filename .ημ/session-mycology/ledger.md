@@ -28,3 +28,12 @@
   spore: none
   receipt-refs: review5443363092,row77
   note: Transport existence checks need whole expected record multiset equality: omissions and equal-count substitutions passed the predecessor. Exact 48-record identity and original byte/hash metadata now retained; private fault controls reject each incomplete case. Full issue11 planning/history and native ownership remain, no board/provider/approval claim.
+- ts: 2026-10-07T15:03:57.511169376Z
+  session: /home/err/.codex/parallel-goal/issues-20261006/Calliope5-incomplete-metadata-48491dfcd7/worktree
+  task: Reject incomplete extra native transport metadata in Calliope5
+  p-efficiency: 0.85
+  p-friction: 0.22
+  p-skill-candidate: 0.15
+  spore: none
+  receipt-refs: dfee5d5e28cfe9681cbb8cddff794265ba06f818427d865bef0d5709391da0e8
+  note: Yield suspicious native paths before metadata validation; exact native fix plus full positive and hostile controls. Failed own unsupported notes flag output retained before materializing supported canonical entry. Root alone publishes and settles; no Ready or provider execution.

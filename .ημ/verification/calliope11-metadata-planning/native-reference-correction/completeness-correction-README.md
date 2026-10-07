@@ -82,3 +82,39 @@ board operation, workflow change, hosted rerun, native settlement or reviewer
 request occurred. DRAFT/blocked/auto-merge-off and the unknown review-quota reset
 remain. Root publication and distinct independent peer review are required;
 this local correction supplies no approval, cohort, readiness or deployment.
+
+## Incomplete extra native metadata correction
+
+Review 5444110053 on published `3436178fe73db3b48761b26bdd8bd25d9952a81f`
+identified one P1: root 4208379348, thread `PRRT_kwDOU4VdRc6p9crT`, item
+`cr-comment:v1:4a0531e68b28a5e7a4f084cd`. The full body repeats this finding
+and adds no separate nitpick or outside-diff obligation. The baseline accepts
+all 48 intact records plus an extra `native/` path without SHA, byte count, or
+both, because discovery silently omits it.
+
+Apply the exact proposed one-line iterator change: yield every dictionary
+whose string path starts with `native/`, then let `record` reject missing
+metadata. Retain the entire declared 48-record multiset, canonical wrapper and
+size/hash checks, and existing containment policy unchanged. The expanded real
+subprocess suite passes 22 cases: three positives and 19 negatives. It retains
+all ten earlier hostile controls and adds missing-SHA/bytes/both extra-reference
+negatives, four inventory tuple tamper cases, external-file and external-parent
+symlink negatives, and in-root-directory symlink and root-alias positives.
+
+`incomplete-metadata-command-collection.json` is the single added evidence path.
+It contains actual command argv/cwd/exits, safe canonical encoded streams and
+exact raw private hashes/locations, source/API provenance and own preparation
+refusals. Native views with scoped query values withheld are explicitly
+projections, not lossless original native responses. Historical collections,
+proofs, captures, inventory, all 48 referenced artifacts, full ten issue criteria
+and six proofs, governing card/design and source/workflows/configuration/events
+remain exact. Receipt and canonical portable reflection are append-only.
+
+The whole stacked diff remains 150 paths without exclusions or paid capacity.
+No application/compiler/backend/provider/audio/corpus/board/hosted test or
+workflow ran. Current owning Receipt River validates the new declared row 78
+while retaining 21 historical refusals. Local transport regression is not Suno
+metadata implementation, Ready, approval or cohort qualification. Root alone
+publishes and settles after distinct peer verification; the P1 remains open
+until that native followthrough. Native included capacity is zero, allowance
+one review per hour, and no explicit reset is known; no reviewer retry ran.
